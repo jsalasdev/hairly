@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "366818925474",
+    "firebase_url": "https://hairly-99fc1.firebaseio.com",
+    "project_id": "hairly-99fc1",
+    "storage_bucket": "hairly-99fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366818925474:android:5f305ead74e1c096",
+        "android_client_info": {
+          "package_name": "com.example.jezuz1n.hairly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366818925474-99cg6ptvsbnq31ncabateuknodoo6n89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jezuz1n.hairly",
+            "certificate_hash": "9e4dc6f6e6ce7c0c2667e4fa7b608235261127bf"
+          }
+        },
+        {
+          "client_id": "366818925474-tp57rk09gkv8ca8g00180mc48i9hssrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgf3fikTxAyqWu0L6wq3teWgOIWZ2vKUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366818925474-tp57rk09gkv8ca8g00180mc48i9hssrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

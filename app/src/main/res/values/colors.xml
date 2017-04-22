@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCA19</color>
+    <color name="colorPrimaryDark">#FFC400</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleNavView">#0020FF</color>
+</resources>

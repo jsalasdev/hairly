@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hairly</string>
+    <string name="inicio">Inicio</string>
+    <string name="mapa_centros">Mapa de Centros</string>
+    <string name="citas">Tus Citas</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="KEYMAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
+    <string name="title_activity_login">Inicia sesión</string>
+    <string name="error_password">Error al insertar contraseña</string>
+    <string name="error_email">Error al insertar email</string>
+</resources>

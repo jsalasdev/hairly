@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/inicio"/>
+        <item
+            android:id="@+id/menu_perfil"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/perfil"/>
+        <item
+            android:id="@+id/menu_citas"
+            android:icon="@drawable/ic_citas"
+            android:title="@string/citas"/>
+        <item
+            android:id="@+id/menu_mapa"
+            android:icon="@drawable/ic_map"
+            android:title="@string/mapa_centros"/>
+    </group>
+</menu>
