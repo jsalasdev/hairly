@@ -8,4 +8,5 @@
     <string name="title_activity_login">Inicia sesión</string>
     <string name="error_password">Error al insertar contraseña</string>
     <string name="error_email">Error al insertar email</string>
+    <string name="prueba">prueba</string>
 </resources>
