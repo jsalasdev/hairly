@@ -1,7 +1,4 @@
-#Tue Apr 18 08:51:41 CEST 2017
-base.0=C\:\\Users\\jesus.salas\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_206f7401bb84105e78338ed47be70a8b114754db
-renamed.1=classes2.dex
+#Sun Apr 23 14:19:40 CEST 2017
+base.0=C\:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\jesus.salas\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9eab2d1e78b339d4625408adbeb3428eeb352f4c\\classes.dex
-base.1=C\:\\Users\\jesus.salas\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9eab2d1e78b339d4625408adbeb3428eeb352f4c
-file.0=C\:\\Users\\jesus.salas\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_206f7401bb84105e78338ed47be70a8b114754db\\classes.dex
+file.0=C\:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

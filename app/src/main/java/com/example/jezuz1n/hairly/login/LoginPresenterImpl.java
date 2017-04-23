@@ -1,5 +1,8 @@
 package com.example.jezuz1n.hairly.login;
 
+import android.app.Activity;
+import android.util.Log;
+
 /**
  * Created by jesus.salas on 19/04/2017.
  */
@@ -36,15 +39,22 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLog
         if(loginView!=null){
             loginView.navigateToIndex();
             loginView.hideProgressBar();
+            loginView.hideError();
         }
     }
 
     @Override
-    public void validateCredentials(String email, String password) {
+    public void onFailure() {
+        loginView.setError();
+        loginView.hideProgressBar();
+    }
+
+    @Override
+    public void validateCredentials(String email, String password,Activity act) {
         if(loginView!=null){
             loginView.showProgressBar();
         }
-        loginInteractor.login(email,password,this);
+        loginInteractor.login(email,password,this,act);
     }
 
     @Override

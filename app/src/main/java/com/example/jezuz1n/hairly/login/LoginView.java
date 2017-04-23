@@ -10,6 +10,8 @@ public interface LoginView {
     void hideProgressBar();
     void setEmailError();
     void setPasswordError();
+    void setError();
+    void hideError();
     void navigateToIndex();
 
 }

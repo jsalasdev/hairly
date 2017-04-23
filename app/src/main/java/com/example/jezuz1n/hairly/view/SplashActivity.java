@@ -1,0 +1,68 @@
+package com.example.jezuz1n.hairly.view;
+
+import android.content.Intent;
+import android.graphics.Typeface;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.login.LoginActivity;
+import com.example.jezuz1n.hairly.login.SessionManager;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+public class SplashActivity extends AppCompatActivity {
+
+    @BindView(R.id.tv_logo_splash)
+    TextView tvLogoSplash;
+
+    SessionManager sessionManager;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        ButterKnife.bind(this);
+
+        sessionManager = new SessionManager(getApplicationContext());
+
+        initLogo();
+        load();
+    }
+
+    public void initLogo(){
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/Sketch.ttf");
+        tvLogoSplash.setTypeface(typeface);
+        tvLogoSplash.setText(getString(R.string.app_name));
+    }
+
+    public void load(){
+
+        Thread timerThread = new Thread(){
+            public void run(){
+                try{
+                    sleep(3000);
+                }catch(InterruptedException e){
+                    e.printStackTrace();
+                }finally{
+                    Intent intent = null;
+                    if(sessionManager.isLogged()){
+
+                        //pillar uid y pasarla por el intent para consultar en la sig. activity
+                        //o pasar el objeto listo directamente
+
+                        intent = new Intent(SplashActivity.this,IndexActivity.class);
+                    }else {
+                        intent = new Intent(SplashActivity.this, LoginActivity.class);
+                    }
+                    startActivity(intent);
+                }
+            }
+        };
+        timerThread.start();
+
+    }
+
+}

@@ -111,9 +111,9 @@ MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jezuz
 	android:name
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:29:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:31:9-33:46
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:31:9-33:47
 	android:value
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:33:13-43
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:33:13-44
 	android:name
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:32:13-58
 uses-feature#0x00020000
@@ -122,30 +122,32 @@ ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidMan
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:36:13-45
 	android:required
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:37:13-36
-activity#com.example.jezuz1n.hairly.view.IndexActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:39:9-45:20
-	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:39:19-53
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:40:13-44:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:41:17-69
-	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:41:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:43:17-77
-	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:43:27-74
-activity#com.example.jezuz1n.hairly.LoginActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:46:9-48:60
-	android:label
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:48:13-57
-	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:47:13-42
 activity#com.example.jezuz1n.hairly.login.LoginActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:49:9-66
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:39:9-41:59
+	android:label
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:41:13-57
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:49:19-54
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:40:13-48
+activity#com.example.jezuz1n.hairly.view.IndexActivity
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:42:9-56
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:42:19-53
+activity#com.example.jezuz1n.hairly.view.SplashActivity
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:43:55-87
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:43:19-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml:47:27-74
 uses-sdk
 INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:21:5-23:62

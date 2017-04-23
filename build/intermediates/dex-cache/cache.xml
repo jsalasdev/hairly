@@ -2,355 +2,355 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\b6f163a47488a20ac42d69af16d4e182193566ac\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f862e5d40bc288157d0f88399ecd9e8eceb3c61\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93c18c9bb8febccd6f6cee5f17b4ae04249bdd4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\240fe7cbf43ce898f6b005359d8fde32ed909c28\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92e7badfff539ff55b33d0e8a12389856f6bac81\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\2432551eb97a67265dc373437807b119558a5775\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9df50b4b6e5b752a6e3db41c8c7e90e4e25785f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b565c34d5ee0cb61c5654340a8c00e87d5ff26ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8ba44e3dfd252d4fe7004f041f78ff80c7cfb60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\0052d1d030fb5f52a81e671c16b45002b421d43d\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\93ffccf3bce097f31b8bfe6a7ed75eb47d338020\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_08036d89dd67d2724297c50d5d8292bd54670ff1\classes.dex" />
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_e6afc6b025596339551289e3879f19194c8a53ac.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\957b6c291ef2cb93f126706157122c60a9bdde77\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_b43141541e78e9578cefa789cbd6d8ad6b085d07\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_85e11aa6ba3c2a5750ee933843b005a3ca658332.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\9291d8f3a5c99dbe228e11ceea20ff30de153c53\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd908126ac377b42d8d1c98d770e62ee1a7bb950\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\6c09a061c17d19ffa4f91b11a33151def504aec0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f05c4049bbab707babc7515d613437ca69043c86\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\73f6017ee3020573138f027d7038464c4bd5788a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15a39d67d3148e6718f7b9bddbf6d6a24b9981b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\5e3caa746b0f36783362e6cca7da0a7995e4dbce\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ffd4cb5ab135f21be74041cd91b3893407440865\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d497b843a81c3be31688dadb079d0c1760b36dbf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e07dd31b8897c11fa6611d90cfb95d4c748df60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_9fec7fe4989be8a6ce2a378bbe30ffbce2aa5eba\classes.dex" />
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_8c5db81b5f1a0ae6c8770872f647be31fe7584f3.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\47603797bc4415d6ea6acb062715fbd092afe083\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_337e10cbfa65d4905f8f42c0fa5097ff9b9791d3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_206f7401bb84105e78338ed47be70a8b114754db\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\de7744d9c437559fe7dc20577f814b32b0a995a2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e9d861a23ef83dc50078be789147785966c972d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e2dfeb888b934b9748c8bec2c56d15902630dbc">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9eab2d1e78b339d4625408adbeb3428eeb352f4c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\9646f7805db01c575bc14704a9745afef5c5ca3d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="691163c366515ad6ef976a0dccee75f8fbb281e1">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cae4e60a547982178461954a1993742f7bbecc8d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\d0d97780662e3316f41be71827feef211184fcc4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="683ac3c4bea1c502b27ede58061a9e2cca684ca3">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68c80ad71e8735d5042255ac6e9306f23502c54d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\1a4afada00d78d975a08a2cdc8c893414e4a984a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dca4c4f8b45b7957d8e4ec69de1dfadb08fd0617\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9411d85c49a232f5f5d8fec6633f4b2d07b378ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_9a30f31cd7da8787a7012fa980c477324152cea7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\98f73f8eb31bb3b82e4020b5701de1c25936dce1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf09ead3f869df197400109669a96f790186ab4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\e1b080fe048fdd139f4eae398ca02b0f461bfa19\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8893a84c43e4e88b7dafc042d2cc4d96346f37f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\c4ab1644f5a71f7054da3e63a5b98abdbb546dd2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e274468c9e4afce42d3f6df3b4147ecc24893a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\1f48c207f9bbb7fe90d25b8a106c8c4df5aadba2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56e66ff92ae2e51d75b5b3a20991a1e61e8ba139\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\b6bd4ce560d877b8102080bc2b2ae4efbc073462\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\5329e57fb6814a5c4abb3e163a71e86c643f888a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9ab92a94be5b6a0d7b8f49290196ec4cef9c9b0\classes.dex" />
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_5283bb39bb85227dafc8b4b9a0f342bc38a3914c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.5.1_a5db3cce14a09b7df14b94ae059545a10e874318.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_ac6df0c3bffb4f6eb7e7940bc279a3e0870449f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7e89572e09c9be268f3887bd31e82aec6ac6f69\classes.dex" />
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_cc6d242ace00fa59e1ec2c232e6f930290d6eeb6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\936cb11d8d88c52c17653001411351b2d6fc8b35\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\b1b5662e1e42d20fc1ec59551634b5770c6e2b56\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c519b4a1a9deef610e6c72100b815178def9f17\classes.dex" />
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_006ebabe673240b43a80d2d1f3b45b61ab26bff9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\10931fd4d511d39b217f7c4ae44baa353c705b44\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\9876e472fedd8a68cea1cd062ec5195dd91075f3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7770d9fbe72f2f1d8ab313beedf0865087019067\classes.dex" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_46ab49c079e9f5e91f81808f376ddaed13411b0e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\1c3e656b193f2934d6ba6611ef7ea341909ef9f8\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\afabd2079d35971a023ee4df3e3b40ec00fc87b3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="bb23dc2f6ee78bd8a7f8cdfba600bb52fcbba590">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d775225237986873d906e8743e9769e4283819cb\classes.dex" />
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_b0fa37c20f5e14e41085004a08720fa4b69c4dbb.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\299857e1d5757cb3ab5d8d1fc2e901dc7f991353\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f7952dbbd6e8d36c090cd99b54a45363cb91fb8\classes.dex" />
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_8803eb6bb6f509f7c2677d370db272be586019ef.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\6068909241fe77ef2e52463636513d8aa660cf74\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\2a03e983e9b7cb86400b83c9d196adea44bb91f8\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="bd6e69c3e0dfba6f7a60ea5487f7351a8fd383ba">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a739678005c4e5b3234619867c547a3106927d0\classes.dex" />
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_1c702730076268fb71ae01ee51c4c7f0c7d84457.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\8fb2aac273d38edadd2bb2f6d3efd37498aab771\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\24bc01c97d67aeb67e2bb74420033bdd91172b3f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38cdcac05e581280c04b481d3081f7bd2dd8089e\classes.dex" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_0a25681a818826c912c467aaf29d8dd3f83deaca.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\5edfa76afa601732e601c58e8af0381ef3f05397\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\8e84d6ec468d9effa02ca666ac88c657616bcfd6\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_304e64c26081112283bebd0290f2d78f0f6ac8be\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_133af8a2f614831a02581f3ef8075bd0df0ff695.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_865df129a98a2e3d60c9b9a3f9fa197ad545e8b2\classes.dex" />
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_b83f30ead5fd71a5e0a13a21e177d569a54e0bcf.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\jesus.salas\.android\build-cache\be14b606e41feb1ba4956916ebecc36f26ef3d3a\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_7962b5b6d37e7128f32a5e3ddd57749b92c7e2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\276bda85ce532b5c78b58c5fecd843d0e0694000\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="ac8365c87591065db07f7bac8551504504832cd4">
-        <dex dex="C:\Users\jesus.salas\AndroidStudioProjects\Hairly\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_393465791c05182a16c2d51943ed1dec05fe1e74\classes.dex" />
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_dba9bf30813297d01c7fc6e679e95a9164b3f375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\8f878e8a17a62bf0fa4980b10dff4c4b67718aaf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="691163c366515ad6ef976a0dccee75f8fbb281e1">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_f6f85457e947755233519517db4e722d53485b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\80ac9b8d337c3897a9b1ff877604742f33a98980\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_218f9cfcfa996be2567fba28c782d7d584698cb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\78c2dd36bcf4a734fa7d2d39d057236d096ee12e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_bb2d0a11644967dc2f2bf6d87887cc48f36c1ed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\0da45d95d394f7b6cef43aab51d8f719ec86fd77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_94dfd8e8a0f2b6490972a43e9c6a358d92b74052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_d3dd5ce72a8f277ff0381b2317771ad29ab1e80b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_c8d2346613003f52455a8365daec06572677ecdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\de88981a759d865f9ea7d13fab218506f32c7724\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_1f298b5f34746535211283ad6f2199b1c0c2d857.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\cc8a04ec3da35184535dc8f9b0c9cb72863156a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_d222e795337218616e3e5c2aba2d8f24c4edf75e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\972ac3bb5cec734aef9876682694ed0ea1c0214e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_f5292a0bdbe1a1a218d34022b2a97721b29ada7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_5288852fef47c47e9294e02fed3b41c9b8dfa69d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\e8b805b534380b06d1cc34ff8e2210af6d8a5e7b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_48934f756b1b1a3f40ba70f9dba3d138a721401e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\2c191a0bf7e0580c5b876228754f5b744bcef76d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_d74ff74f4d657ba51cc244da4c2885369cc612d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\d3f3f0cde6af2ec2de770156a9dc2943a5a709c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_ac5ff5a0f5a0bed792aa213a9a21c0004f4fd58c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\fdc4b789cb87c14c2deae42e326fbbe65d29910f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="683ac3c4bea1c502b27ede58061a9e2cca684ca3">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_f6939e1527957f603fb63a8ac901af1263f7d6b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\fde383b8af4d5c68a57593d0af191b72049dc13c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd6e69c3e0dfba6f7a60ea5487f7351a8fd383ba">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_d35a3707b4383fbfe748c5a51224123bc13e1af2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\62c79cc57b8eae444fc4245d6690ff33fa42dbac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_9101f8ee38444fd1edb7429fb135507ed3269d39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_6dcc460808f36bf491635f388fa0110f5730bc2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_f0532fb03f6d27f4fd5f7c25f7f34c2d289b5d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\5746f7c39822c5a063c75389bede31f3352d96e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_26fadc3b1e3149e876a3a980fdb5ae7dec0cf415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\1f43dc489efed48b6ddb0acbceae10cee0835ce1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_cee064959574636c1df300306e5052457b545774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\90c7c1d4c4753acd848096bb61300736dafe76f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bb23dc2f6ee78bd8a7f8cdfba600bb52fcbba590">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_bb5af0f349e90387235c42bc53868b318a0c6903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jezuz1n\.android\build-cache\09f2dd03ce842c8e9a5a6d49baba0dcf1b08cceb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\jezuz1n\AndroidStudioProjects\Hairly\app\build\intermediates\pre-dexed\debug\classes_ef7a2d6170bd96d590090280f5ecefe180b11307.jar" />
     </item>
 
 </items>
