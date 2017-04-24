@@ -12,7 +12,7 @@ public interface LoginInteractor {
     interface OnLoginFinishedListener{
         void onEmailError();
         void onPasswordError();
-        void onSuccess();
+        void onSuccess(String uid);
         void onFailure();
     }
 

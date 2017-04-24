@@ -13,5 +13,6 @@ public interface LoginView {
     void setError();
     void hideError();
     void navigateToIndex();
+    void createSession(String uid);
 
 }

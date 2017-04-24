@@ -1,5 +1,6 @@
 package com.example.jezuz1n.hairly.login;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +12,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.view.IndexActivity;
+import com.example.jezuz1n.hairly.view.SplashActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
@@ -38,6 +41,8 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     LoginPresenter presenter;
 
+    SessionManager sessionManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +52,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
         initLogo();
         presenter = new LoginPresenterImpl(this);
+        sessionManager = new SessionManager(getApplicationContext());
     }
 
     public void initLogo(){
@@ -87,7 +93,13 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public void navigateToIndex() {
-        Log.i("LOGIN","Se ha logueado bien.");
+        Intent intent = new Intent(this,IndexActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public void createSession(String uid) {
+        sessionManager.createSession(etEmail.getText().toString(),etPassword.getText().toString(),uid);
     }
 
     public void onClick(View v){

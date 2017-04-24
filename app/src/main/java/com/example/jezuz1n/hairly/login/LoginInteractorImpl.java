@@ -10,6 +10,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 /**
  * Created by jesus.salas on 19/04/2017.
@@ -18,6 +19,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginInteractorImpl implements LoginInteractor{
 
     FirebaseAuth firebaseAuth;
+    FirebaseUser firebaseUser;
+
 
     @Override
     public void login(final String email,final String password, final OnLoginFinishedListener listener, final Activity act) {
@@ -41,17 +44,15 @@ public class LoginInteractorImpl implements LoginInteractor{
                             .addOnCompleteListener(act, new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
-                                    //if the task is successfull
                                     if (task.isSuccessful()) {
-                                        listener.onSuccess();
+                                        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+                                        String uid = firebaseUser.getUid();
+                                        listener.onSuccess(uid);
                                     }else{
                                         listener.onFailure();
                                     }
                                 }
                             });
-
-
         }
-
     }
 }

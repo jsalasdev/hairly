@@ -14,7 +14,7 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLog
 
     public LoginPresenterImpl(LoginView loginView){
         this.loginView = loginView;
-        //Inyectar LoginInteractor con Dagger
+        //Inyectar con Dagger
         loginInteractor = new LoginInteractorImpl();
     }
 
@@ -35,8 +35,9 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLog
     }
 
     @Override
-    public void onSuccess() {
+    public void onSuccess(String uid) {
         if(loginView!=null){
+            loginView.createSession(uid);
             loginView.navigateToIndex();
             loginView.hideProgressBar();
             loginView.hideError();

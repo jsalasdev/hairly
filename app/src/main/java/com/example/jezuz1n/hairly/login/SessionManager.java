@@ -20,6 +20,7 @@ public class SessionManager {
     public static final String KEY_EMAIL = "email";
     public static final String KEY_PASSWORD = "password";
     public static final String KEY_UID = "uid";
+    public static final String KEY_TYPE  = "type";
 
     public SessionManager(Context context){
         this.context = context;
@@ -36,6 +37,7 @@ public class SessionManager {
         editor.putString(KEY_EMAIL,email);
         editor.putString(KEY_PASSWORD,password);
         editor.putString(KEY_UID,uid);
+        //añadir tipo
         editor.commit();
     }
 
@@ -54,12 +56,8 @@ public class SessionManager {
     }
 
     public void logoutUser(){
-
         editor.clear();
         editor.commit();
-
-
-
     }
 
 }

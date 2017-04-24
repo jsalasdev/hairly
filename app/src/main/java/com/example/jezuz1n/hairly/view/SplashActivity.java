@@ -28,6 +28,9 @@ public class SplashActivity extends AppCompatActivity {
 
         sessionManager = new SessionManager(getApplicationContext());
 
+        //quitar
+        //sessionManager.logoutUser();
+
         initLogo();
         load();
     }
@@ -43,7 +46,7 @@ public class SplashActivity extends AppCompatActivity {
         Thread timerThread = new Thread(){
             public void run(){
                 try{
-                    sleep(3000);
+                    sleep(1000);
                 }catch(InterruptedException e){
                     e.printStackTrace();
                 }finally{
@@ -62,7 +65,12 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
         timerThread.start();
+    }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
 
 }

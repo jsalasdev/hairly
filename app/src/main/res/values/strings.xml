@@ -12,4 +12,5 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="error">Inserte sus credenciales de nuevo</string>
+    <string name="register">¿No tienes cuenta aún? Registrate.</string>
 </resources>
