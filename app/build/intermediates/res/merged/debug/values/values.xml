@@ -724,6 +724,8 @@
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="KEY_MAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
+    <string name="TYPE_CLIENT">Cliente</string>
+    <string name="TYPE_SHOP">Peluquería</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -757,6 +759,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Hairly</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back_login">¿Ya tienes cuenta? Loguéate.</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="citas">Tus Citas</string>
@@ -780,8 +783,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="create_account">CREAR CUENTA</string>
     <string name="default_web_client_id" translatable="false">366818925474-tp57rk09gkv8ca8g00180mc48i9hssrh.apps.googleusercontent.com</string>
-    <string name="email">Email</string>
+    <string name="email">Correo</string>
     <string name="error">Inserte sus credenciales de nuevo</string>
     <string name="error_email">Error al insertar email</string>
     <string name="error_password">Error al insertar contraseña</string>
@@ -793,7 +797,7 @@
     <string name="google_storage_bucket" translatable="false">hairly-99fc1.appspot.com</string>
     <string name="inicio">Inicio</string>
     <string name="mapa_centros">Mapa de Centros</string>
-    <string name="password">Password</string>
+    <string name="password">Contraseña</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -802,6 +806,7 @@
     <string name="perfil">Mi Perfil</string>
     <string name="prueba">prueba</string>
     <string name="register">¿No tienes cuenta aún? Registrate.</string>
+    <string name="repeat_password">Repite la contraseña</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_login">INICIA SESION</string>

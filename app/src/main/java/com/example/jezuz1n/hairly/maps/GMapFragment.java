@@ -59,15 +59,12 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Iterable<DataSnapshot> children = dataSnapshot.getChildren();
                 Log.i("cant",String.valueOf(dataSnapshot.getChildrenCount()));
-
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
-
         return rootView;
     }
 

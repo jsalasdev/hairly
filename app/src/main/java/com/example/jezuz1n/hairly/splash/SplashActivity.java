@@ -1,4 +1,4 @@
-package com.example.jezuz1n.hairly.view;
+package com.example.jezuz1n.hairly.splash;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.login.SessionManager;
+import com.example.jezuz1n.hairly.view.IndexActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -52,10 +53,6 @@ public class SplashActivity extends AppCompatActivity {
                 }finally{
                     Intent intent = null;
                     if(sessionManager.isLogged()){
-
-                        //pillar uid y pasarla por el intent para consultar en la sig. activity
-                        //o pasar el objeto listo directamente
-
                         intent = new Intent(SplashActivity.this,IndexActivity.class);
                     }else {
                         intent = new Intent(SplashActivity.this, LoginActivity.class);

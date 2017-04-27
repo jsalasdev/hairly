@@ -1,23 +1,24 @@
 package com.example.jezuz1n.hairly.login;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.register.RegisterActivity;
 import com.example.jezuz1n.hairly.view.IndexActivity;
-import com.example.jezuz1n.hairly.view.SplashActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
 
@@ -41,18 +42,14 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     LoginPresenter presenter;
 
-    SessionManager sessionManager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Fresco.initialize(this);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-
         initLogo();
         presenter = new LoginPresenterImpl(this);
-        sessionManager = new SessionManager(getApplicationContext());
     }
 
     public void initLogo(){
@@ -91,6 +88,12 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         etError.setVisibility(View.GONE);
     }
 
+    @OnClick(R.id.tv_goto_register)
+    public void navigateToRegister(){
+        Intent i = new Intent(this,RegisterActivity.class);
+        startActivity(i);
+    }
+
     @Override
     public void navigateToIndex() {
         Intent intent = new Intent(this,IndexActivity.class);
@@ -98,11 +101,12 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     }
 
     @Override
-    public void createSession(String uid) {
-        sessionManager.createSession(etEmail.getText().toString(),etPassword.getText().toString(),uid);
+    public Context getContext() {
+        return getApplicationContext();
     }
 
-    public void onClick(View v){
+    @OnClick(R.id.btn_login_activity)
+    public void onClick(){
         presenter.validateCredentials(etEmail.getText().toString(),etPassword.getText().toString(),this);
     }
 

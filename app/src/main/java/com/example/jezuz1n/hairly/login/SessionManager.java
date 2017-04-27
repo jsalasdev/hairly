@@ -3,6 +3,8 @@ package com.example.jezuz1n.hairly.login;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.example.jezuz1n.hairly.models.dto.UserDTO;
+
 import java.util.HashMap;
 
 /**
@@ -32,12 +34,12 @@ public class SessionManager {
         editor = pref.edit();
     }
 
-    public void createSession(String email, String password, String uid){
+    public void createSession(UserDTO user){
         editor.putBoolean(IS_LOGGED,true);
-        editor.putString(KEY_EMAIL,email);
-        editor.putString(KEY_PASSWORD,password);
-        editor.putString(KEY_UID,uid);
-        //añadir tipo
+        editor.putString(KEY_EMAIL, user.getEmail());
+        editor.putString(KEY_PASSWORD, user.getPassword());
+        editor.putString(KEY_UID, user.getUid());
+        editor.putString(KEY_TYPE, user.getType());
         editor.commit();
     }
 
@@ -47,6 +49,7 @@ public class SessionManager {
         user.put(KEY_EMAIL, pref.getString(KEY_EMAIL, null));
         user.put(KEY_PASSWORD, pref.getString(KEY_PASSWORD, null));
         user.put(KEY_UID,pref.getString(KEY_UID,null));
+        user.put(KEY_TYPE,pref.getString(KEY_TYPE,null));
 
         return user;
     }

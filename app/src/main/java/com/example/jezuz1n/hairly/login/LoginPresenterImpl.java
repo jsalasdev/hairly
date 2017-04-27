@@ -1,7 +1,10 @@
 package com.example.jezuz1n.hairly.login;
 
 import android.app.Activity;
+import android.content.Context;
 import android.util.Log;
+
+import com.example.jezuz1n.hairly.models.dto.UserDTO;
 
 /**
  * Created by jesus.salas on 19/04/2017.
@@ -11,11 +14,18 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLog
 
     private LoginView loginView;
     private LoginInteractor loginInteractor;
+    private SessionManager sessionManager;
 
     public LoginPresenterImpl(LoginView loginView){
         this.loginView = loginView;
         //Inyectar con Dagger
         loginInteractor = new LoginInteractorImpl();
+        initSessionManager();
+
+    }
+
+    public void initSessionManager(){
+        sessionManager = new SessionManager(loginView.getContext());
     }
 
     @Override
@@ -35,13 +45,17 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLog
     }
 
     @Override
-    public void onSuccess(String uid) {
+    public void onSuccess(UserDTO user) {
         if(loginView!=null){
-            loginView.createSession(uid);
+            createSession(user);
             loginView.navigateToIndex();
             loginView.hideProgressBar();
             loginView.hideError();
         }
+    }
+
+    public void createSession(UserDTO user) {
+        sessionManager.createSession(user);
     }
 
     @Override

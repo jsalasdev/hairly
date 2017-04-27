@@ -6,11 +6,16 @@
     <string name="perfil">Mi Perfil</string>
     <string name="KEY_MAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
     <string name="title_activity_login">INICIA SESION</string>
+    <string name="create_account">CREAR CUENTA</string>
     <string name="error_password">Error al insertar contraseña</string>
     <string name="error_email">Error al insertar email</string>
     <string name="prueba">prueba</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repite la contraseña</string>
     <string name="error">Inserte sus credenciales de nuevo</string>
     <string name="register">¿No tienes cuenta aún? Registrate.</string>
+    <string name="back_login">¿Ya tienes cuenta? Loguéate.</string>
+    <string name="TYPE_CLIENT">Cliente</string>
+    <string name="TYPE_SHOP">Peluquería</string>
 </resources>
