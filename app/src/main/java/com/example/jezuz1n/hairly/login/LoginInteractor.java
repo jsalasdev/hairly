@@ -18,6 +18,6 @@ public interface LoginInteractor {
         void onFailure();
     }
 
-    public void login(String email, String password, OnLoginFinishedListener listener, Activity act);
+    void login(String email, String password, OnLoginFinishedListener listener, Activity act);
 
 }

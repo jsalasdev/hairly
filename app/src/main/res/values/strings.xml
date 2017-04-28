@@ -18,4 +18,7 @@
     <string name="back_login">¿Ya tienes cuenta? Loguéate.</string>
     <string name="TYPE_CLIENT">Cliente</string>
     <string name="TYPE_SHOP">Peluquería</string>
+    <string name="ERROR_PASSWORD">Las contraseñas no coinciden</string>
+    <string name="ERROR_LONG_PASSWORD">La contraseña debe tener al menos 8 carácteres.</string>
+    <string name="ERROR_EMAIL_PATTERN">Introduce un email correcto.</string>
 </resources>

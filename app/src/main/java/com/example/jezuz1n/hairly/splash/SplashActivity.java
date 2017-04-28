@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.login.LoginActivity;
-import com.example.jezuz1n.hairly.login.SessionManager;
+import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.view.IndexActivity;
 
 import butterknife.BindView;

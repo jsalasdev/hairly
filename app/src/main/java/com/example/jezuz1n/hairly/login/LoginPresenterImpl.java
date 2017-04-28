@@ -1,10 +1,9 @@
 package com.example.jezuz1n.hairly.login;
 
 import android.app.Activity;
-import android.content.Context;
-import android.util.Log;
 
 import com.example.jezuz1n.hairly.models.dto.UserDTO;
+import com.example.jezuz1n.hairly.session.SessionManager;
 
 /**
  * Created by jesus.salas on 19/04/2017.

@@ -84,11 +84,11 @@
 
     <RadioGroup
         android:id="@+id/user_type_group"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textInputLayout3"
-        android:layout_alignParentStart="true">
+        android:layout_marginTop="27dp">
 
         <RadioButton
             android:id="@+id/user_type_client"
@@ -128,5 +128,27 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/btn_register_activity"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_error_general"
+        android:layout_width="match_parent"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/colorRed"
+        android:text="@string/error"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/user_type_group"
+        android:layout_alignParentStart="true" />
+
+    <ProgressBar
+        android:id="@+id/pb_load"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/user_type_group"
+        android:layout_marginEnd="48dp"
+        android:visibility="gone" />
 
 </RelativeLayout>

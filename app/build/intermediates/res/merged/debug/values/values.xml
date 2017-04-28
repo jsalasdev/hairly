@@ -723,6 +723,9 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="ERROR_EMAIL_PATTERN">Introduce un email correcto.</string>
+    <string name="ERROR_LONG_PASSWORD">La contraseña debe tener al menos 8 carácteres.</string>
+    <string name="ERROR_PASSWORD">Las contraseñas no coinciden</string>
     <string name="KEY_MAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
     <string name="TYPE_CLIENT">Cliente</string>
     <string name="TYPE_SHOP">Peluquería</string>
