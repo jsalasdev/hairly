@@ -4,12 +4,12 @@
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\menu\\menu_navview.xml"
-    },
-    {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/menu/menu_navview.xml",
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/res/menu/menu_navview.xml"
+    },
+    {
+        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",
+        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\menu\\menu_navview.xml"
     },
     {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",

@@ -12,24 +12,24 @@
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/fragment_test_layout.xml",
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/res/layout/fragment_test_layout.xml"
+    },
+    {
+        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -64,12 +64,12 @@
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -120,12 +120,12 @@
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/jsalas/.android/build-cache/856b4ebe3f9fb9b0d3c430286525c5284cdc27d7/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/layout/notification_action.xml",

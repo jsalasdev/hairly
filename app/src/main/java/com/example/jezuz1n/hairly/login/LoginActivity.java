@@ -60,6 +60,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public void showProgressBar() {
+        etError.setVisibility(View.GONE);
         pbLogin.setVisibility(View.VISIBLE);
     }
 
