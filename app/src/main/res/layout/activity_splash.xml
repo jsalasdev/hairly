@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.jezuz1n.hairly.splash.SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_logo_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBlack"
+        android:textSize="70dp" />
+</LinearLayout>

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\jesus.salas\\.android\\build-cache\\e31578c0fa6cf2d03ecc1c8030069eb0c7ee4b80\\output\\res\\values\\values.xml",
+                    "file": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\c5430b29d07513595abe160013558b6ea611dbc9\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -35,31 +35,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\jezuz1n\\.android\\build-cache\\c5430b29d07513595abe160013558b6ea611dbc9\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\jezuz1n\\DAM2\\AndroidProjects\\SDOS\\Hairly\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\jezuz1n\\.android\\build-cache\\c5430b29d07513595abe160013558b6ea611dbc9\\output\\res\\values\\values.xml",
+                    "file": "/Users/jsalas/.android/build-cache/5b35e163d62765f0e921021da6ac4a94f97267a6/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
