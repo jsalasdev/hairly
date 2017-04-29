@@ -13,6 +13,7 @@ public interface RegisterInteractor {
         void onEmailError(String msg);
         void onSuccess();
         void onPasswordError(String msg);
+        void onFailure();
     }
     boolean validateEmail(String email);
     boolean validatePassword(String pw);

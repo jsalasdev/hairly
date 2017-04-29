@@ -114,8 +114,14 @@ public class RegisterActivity extends AppCompatActivity implements RegisterView 
 
     @Override
     public void navigateToIndex() {
-        Intent intent = new Intent(this, IndexActivity.class);
-        startActivity(intent);
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(RegisterActivity.this, IndexActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     public UserDTO getData() {

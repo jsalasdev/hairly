@@ -52,8 +52,8 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         presenter = new LoginPresenterImpl(this);
     }
 
-    public void initLogo(){
-        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/Sketch.ttf");
+    public void initLogo() {
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/Sketch.ttf");
         etLogo.setTypeface(typeface);
         etLogo.setText(getString(R.string.app_name));
     }
@@ -89,15 +89,17 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     }
 
     @OnClick(R.id.tv_goto_register)
-    public void navigateToRegister(){
-        Intent i = new Intent(this,RegisterActivity.class);
+    public void navigateToRegister() {
+        Intent i = new Intent(this, RegisterActivity.class);
         startActivity(i);
+        finish();
     }
 
     @Override
     public void navigateToIndex() {
-        Intent intent = new Intent(this,IndexActivity.class);
+        Intent intent = new Intent(this, IndexActivity.class);
         startActivity(intent);
+        finish();
     }
 
     @Override
@@ -106,8 +108,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     }
 
     @OnClick(R.id.btn_login_activity)
-    public void onClick(){
-        presenter.validateCredentials(etEmail.getText().toString(),etPassword.getText().toString(),this);
+    public void onClick() {
+        presenter.validateCredentials(etEmail.getText().toString(), etPassword.getText().toString(), this);
     }
-
 }

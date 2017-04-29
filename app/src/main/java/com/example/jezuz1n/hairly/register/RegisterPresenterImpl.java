@@ -1,10 +1,6 @@
 package com.example.jezuz1n.hairly.register;
 
 import com.example.jezuz1n.hairly.R;
-import com.example.jezuz1n.hairly.login.LoginActivity;
-import com.example.jezuz1n.hairly.login.LoginInteractor;
-import com.example.jezuz1n.hairly.login.LoginInteractorImpl;
-import com.example.jezuz1n.hairly.login.LoginView;
 import com.example.jezuz1n.hairly.models.dto.UserDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 
@@ -39,20 +35,9 @@ public class RegisterPresenterImpl implements RegisterPresenter, RegisterInterac
 
     @Override
     public void createSession(UserDTO user) {
-        //crear sesion
-        view.getActivity().runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(4000);
-                    view.showDialogProgress();
-                    view.navigateToIndex();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        //view.navigateToIndex();
+        sessionManager.createSession(user);
+        view.showDialogProgress();
+        view.navigateToIndex();
     }
 
     @Override
@@ -68,5 +53,10 @@ public class RegisterPresenterImpl implements RegisterPresenter, RegisterInterac
     @Override
     public void onPasswordError(String msg) {
         view.setPasswordError(msg);
+    }
+
+    @Override
+    public void onFailure() {
+        view.setEmailError(view.getActivity().getString(R.string.ERROR_EMAIL_REGISTERED));
     }
 }

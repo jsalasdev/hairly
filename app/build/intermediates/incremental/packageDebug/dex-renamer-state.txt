@@ -1,4 +1,4 @@
-#Fri Apr 28 23:40:47 CEST 2017
+#Sat Apr 29 13:04:03 CEST 2017
 base.0=/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fa58d85a7cb0fba365aab3f7fc9a0639bcf80c75
 renamed.1=classes.dex
 renamed.0=classes2.dex

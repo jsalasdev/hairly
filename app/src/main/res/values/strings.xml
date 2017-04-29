@@ -21,4 +21,5 @@
     <string name="ERROR_PASSWORD">Las contraseñas no coinciden</string>
     <string name="ERROR_LONG_PASSWORD">La contraseña debe tener al menos 8 carácteres.</string>
     <string name="ERROR_EMAIL_PATTERN">Introduce un email correcto.</string>
+    <string name="ERROR_EMAIL_REGISTERED">Este correo ya está en uso por otra cuenta.</string>
 </resources>
