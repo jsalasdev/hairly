@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.maps.GMapFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

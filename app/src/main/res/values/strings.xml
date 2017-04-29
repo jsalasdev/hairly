@@ -4,8 +4,22 @@
     <string name="mapa_centros">Mapa de Centros</string>
     <string name="citas">Tus Citas</string>
     <string name="perfil">Mi Perfil</string>
-    <string name="KEYMAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
-    <string name="title_activity_login">Inicia sesión</string>
+    <string name="KEY_MAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
+    <string name="title_activity_login">INICIA SESION</string>
+    <string name="create_account">CREAR CUENTA</string>
     <string name="error_password">Error al insertar contraseña</string>
     <string name="error_email">Error al insertar email</string>
+    <string name="prueba">prueba</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repite la contraseña</string>
+    <string name="error">Inserte sus credenciales de nuevo</string>
+    <string name="register">¿No tienes cuenta aún? Registrate.</string>
+    <string name="back_login">¿Ya tienes cuenta? Loguéate.</string>
+    <string name="TYPE_CLIENT">Cliente</string>
+    <string name="TYPE_SHOP">Peluquería</string>
+    <string name="ERROR_PASSWORD">Las contraseñas no coinciden</string>
+    <string name="ERROR_LONG_PASSWORD">La contraseña debe tener al menos 8 carácteres.</string>
+    <string name="ERROR_EMAIL_PATTERN">Introduce un email correcto.</string>
+    <string name="ERROR_EMAIL_REGISTERED">Este correo ya está en uso por otra cuenta.</string>
 </resources>
