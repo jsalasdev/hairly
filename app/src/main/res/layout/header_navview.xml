@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        fresco:actualImageResource="@drawable/bg_2"/>
     <TextView
         android:id="@+id/usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginTop="20dp"
-        android:background="#FFCA19"
         android:padding="10dp"
-        android:text="Anonimo"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
-        android:textColor="@color/titleNavView"
-        android:textStyle="bold" />
-
+        android:textSize="14sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="left" />
 </FrameLayout>

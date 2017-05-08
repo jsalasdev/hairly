@@ -39,9 +39,10 @@
         <activity
             android:name=".login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".view.IndexActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".index.IndexClientActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".splash.SplashActivity"
             android:label="@string/app_name"
@@ -52,8 +53,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".register.RegisterActivity"
-            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".index.IndexShopActivity"></activity>
     </application>
 
 </manifest>

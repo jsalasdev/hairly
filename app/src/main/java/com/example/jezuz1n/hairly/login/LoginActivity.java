@@ -12,8 +12,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.index.IndexShopActivity;
 import com.example.jezuz1n.hairly.register.RegisterActivity;
-import com.example.jezuz1n.hairly.view.IndexActivity;
+import com.example.jezuz1n.hairly.index.IndexClientActivity;
+import com.example.jezuz1n.hairly.session.SessionManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
@@ -42,12 +44,15 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     LoginPresenter presenter;
 
+    SessionManager sessionManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Fresco.initialize(this);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        sessionManager = new SessionManager(getApplicationContext());
         initLogo();
         presenter = new LoginPresenterImpl(this);
     }
@@ -98,7 +103,14 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public void navigateToIndex() {
-        Intent intent = new Intent(this, IndexActivity.class);
+        Intent intent;
+
+        if(sessionManager.getUserDetails().get("type").equalsIgnoreCase("client")){
+            intent = new Intent(LoginActivity.this, IndexClientActivity.class);
+        }else{
+            intent = new Intent(LoginActivity.this, IndexShopActivity.class);
+        }
+
         startActivity(intent);
         finish();
     }

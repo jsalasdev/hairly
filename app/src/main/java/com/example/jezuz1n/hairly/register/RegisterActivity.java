@@ -1,7 +1,6 @@
 package com.example.jezuz1n.hairly.register;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -14,9 +13,11 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.index.IndexShopActivity;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.models.dto.UserDTO;
-import com.example.jezuz1n.hairly.view.IndexActivity;
+import com.example.jezuz1n.hairly.index.IndexClientActivity;
+import com.example.jezuz1n.hairly.session.SessionManager;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -44,12 +45,15 @@ public class RegisterActivity extends AppCompatActivity implements RegisterView 
     @BindView(R.id.pb_load)
     ProgressBar progress;
 
+    SessionManager sessionManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.bind(this);
         mPresenter = new RegisterPresenterImpl(this);
+        sessionManager = new SessionManager(getApplicationContext());
         initLogo();
     }
 
@@ -117,7 +121,12 @@ public class RegisterActivity extends AppCompatActivity implements RegisterView 
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(RegisterActivity.this, IndexActivity.class);
+                Intent intent;
+                if(sessionManager.getUserDetails().get("type").equalsIgnoreCase("client")){
+                    intent = new Intent(RegisterActivity.this, IndexClientActivity.class);
+                }else{
+                    intent = new Intent(RegisterActivity.this, IndexShopActivity.class);
+                }
                 startActivity(intent);
                 finish();
             }

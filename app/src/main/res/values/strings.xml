@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Hairly</string>
     <string name="inicio">Inicio</string>
+    <string name="centros">Busca tu Centro</string>
+    <string name="gestion_citas">Gestionar Citas</string>
+    <string name="historial_citas">Historial Citas</string>
     <string name="mapa_centros">Mapa de Centros</string>
     <string name="citas">Tus Citas</string>
     <string name="perfil">Mi Perfil</string>
