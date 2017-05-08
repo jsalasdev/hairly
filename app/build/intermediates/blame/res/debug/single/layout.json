@@ -180,6 +180,10 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_shop.xml",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_index_shop.xml"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\layout\\design_navigation_item_header.xml"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_client_edit_profile.xml",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\fragment_client_edit_profile.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -384,6 +392,10 @@
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_client.xml",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_index_client.xml"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -446,10 +458,6 @@
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",

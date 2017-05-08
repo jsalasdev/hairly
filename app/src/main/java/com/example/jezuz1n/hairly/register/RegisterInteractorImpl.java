@@ -71,7 +71,13 @@ public class RegisterInteractorImpl implements RegisterInteractor {
 
     public void insertDatabase(UserDTO user, IGetInsertResult result){
         mDatabase = FirebaseDatabase.getInstance().getReference();
-        mDatabase.child("clients").child(user.getUid()).setValue(user);
+
+        if(user.getType().equalsIgnoreCase("clients")){
+            mDatabase.child("clients").child(user.getUid()).setValue(user);
+        }else{
+            mDatabase.child("shops").child(user.getUid()).setValue(user);
+        }
+
         result.onSuccess();
     }
 

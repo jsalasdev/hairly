@@ -76,14 +76,35 @@ public class LoginInteractorImpl implements LoginInteractor {
         }
     }
 
-    public void queryType(String uid, final IGetTypeResult result){
-        FirebaseDatabase.getInstance().getReference().child("clients").child(uid)
+    public void queryType(final String uid, final IGetTypeResult result){
+
+        final FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+        firebaseDatabase.getReference().child("clients").child(uid)
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         UserDTO user = dataSnapshot.getValue(UserDTO.class);
-                        type = user.getType();
-                        result.onSuccess(type);
+                        if(user!=null){
+                            type = user.getType();
+                            result.onSuccess(type);
+                        }else{
+                            firebaseDatabase.getReference().child("shops").child(uid)
+                                    .addListenerForSingleValueEvent(new ValueEventListener() {
+                                        @Override
+                                        public void onDataChange(DataSnapshot dataSnapshot) {
+                                            UserDTO user = dataSnapshot.getValue(UserDTO.class);
+                                            type = user.getType();
+                                            result.onSuccess(type);
+                                        }
+
+                                        @Override
+                                        public void onCancelled(DatabaseError databaseError) {
+
+                                        }
+                                    });
+                        }
+
+
                     }
 
                     @Override

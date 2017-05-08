@@ -22,5 +22,9 @@
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_logo.png",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\background_material.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\mipmap-hdpi\\background_material.png"
     }
 ]

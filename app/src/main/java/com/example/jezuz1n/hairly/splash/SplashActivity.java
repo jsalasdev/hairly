@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.index.IndexShopActivity;
 import com.example.jezuz1n.hairly.login.LoginActivity;
+import com.example.jezuz1n.hairly.register.RegisterActivity;
 import com.example.jezuz1n.hairly.session.SessionManager;
-import com.example.jezuz1n.hairly.view.IndexActivity;
+import com.example.jezuz1n.hairly.index.IndexClientActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -53,7 +55,11 @@ public class SplashActivity extends AppCompatActivity {
                 }finally{
                     Intent intent = null;
                     if(sessionManager.isLogged()){
-                        intent = new Intent(SplashActivity.this,IndexActivity.class);
+                        if(sessionManager.getUserDetails().get("type").equalsIgnoreCase("client")){
+                            intent = new Intent(SplashActivity.this, IndexClientActivity.class);
+                        }else{
+                            intent = new Intent(SplashActivity.this, IndexShopActivity.class);
+                        }
                     }else {
                         intent = new Intent(SplashActivity.this, LoginActivity.class);
                     }
