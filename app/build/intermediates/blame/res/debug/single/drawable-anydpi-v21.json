@@ -1,18 +1,26 @@
 [
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/jsalas/.android/build-cache/f7aef78df0837db72d85a197b2c0d8904718041c/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/jsalas/.android/build-cache/f7aef78df0837db72d85a197b2c0d8904718041c/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]
