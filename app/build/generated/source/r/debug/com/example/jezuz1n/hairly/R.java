@@ -3858,6 +3858,7 @@ containing a value of this type.
         public static final int line3=0x7f0d00c9;
         public static final int listMode=0x7f0d0018;
         public static final int list_item=0x7f0d0060;
+        public static final int logout_user=0x7f0d00d2;
         public static final int map=0x7f0d00b1;
         public static final int masked=0x7f0d00cd;
         public static final int media_actions=0x7f0d00bb;
@@ -4136,20 +4137,21 @@ containing a value of this type.
         public static final int google_crash_reporting_api_key=0x7f07004c;
         public static final int google_storage_bucket=0x7f07004d;
         public static final int inicio=0x7f07004e;
-        public static final int mapa_centros=0x7f07004f;
-        public static final int password=0x7f070050;
-        public static final int password_toggle_content_description=0x7f070051;
-        public static final int path_password_eye=0x7f070052;
-        public static final int path_password_eye_mask_strike_through=0x7f070053;
-        public static final int path_password_eye_mask_visible=0x7f070054;
-        public static final int path_password_strike_through=0x7f070055;
-        public static final int perfil=0x7f070056;
-        public static final int prueba=0x7f070057;
-        public static final int register=0x7f070058;
-        public static final int repeat_password=0x7f070059;
+        public static final int logout_user=0x7f07004f;
+        public static final int mapa_centros=0x7f070050;
+        public static final int password=0x7f070051;
+        public static final int password_toggle_content_description=0x7f070052;
+        public static final int path_password_eye=0x7f070053;
+        public static final int path_password_eye_mask_strike_through=0x7f070054;
+        public static final int path_password_eye_mask_visible=0x7f070055;
+        public static final int path_password_strike_through=0x7f070056;
+        public static final int perfil=0x7f070057;
+        public static final int prueba=0x7f070058;
+        public static final int register=0x7f070059;
+        public static final int repeat_password=0x7f07005a;
         public static final int search_menu_title=0x7f070027;
         public static final int status_bar_notification_info_overflow=0x7f070028;
-        public static final int title_activity_login=0x7f07005a;
+        public static final int title_activity_login=0x7f07005b;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0900a2;

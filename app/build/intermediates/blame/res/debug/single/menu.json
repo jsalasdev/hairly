@@ -1,23 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\src\\main\\res\\menu\\menu_navview.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\menu\\menu_navview.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\src\\main\\res\\menu\\menu_navview.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navview.xml",

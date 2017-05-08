@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/Users/jsalas/.android/build-cache/77a26dae9eca7b8e3d5b34ee268cd55f2a7136c5/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\77a26dae9eca7b8e3d5b34ee268cd55f2a7136c5\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

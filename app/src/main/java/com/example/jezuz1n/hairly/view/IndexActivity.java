@@ -1,5 +1,6 @@
 package com.example.jezuz1n.hairly.view;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -12,7 +13,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
+import com.example.jezuz1n.hairly.session.SessionManager;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -53,6 +56,14 @@ public class IndexActivity extends AppCompatActivity {
                     case R.id.menu_citas:
                         break;
                     case R.id.menu_perfil:
+                        break;
+                    case R.id.logout_user:
+                        SessionManager sessionManager = new SessionManager(getApplicationContext());
+                        sessionManager.logoutUser();
+
+                        Intent i = new Intent(IndexActivity.this, LoginActivity.class);
+                        startActivity(i);
+                        finish();
                         break;
                 }
 
