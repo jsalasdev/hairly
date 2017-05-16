@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.example.jezuz1n.hairly.models.dto.UserDTO;
+import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.ValidatorUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -37,7 +38,7 @@ public class RegisterInteractorImpl implements RegisterInteractor {
     }
 
     @Override
-    public void createAccount(final UserDTO user, Activity act, final OnRegisterFinishedListener listener) {
+    public void createAccount(final UserDTO user, final Activity act, final OnRegisterFinishedListener listener) {
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -49,7 +50,7 @@ public class RegisterInteractorImpl implements RegisterInteractor {
 
                             UserDTO mUser = user;
                             mUser.setUid(task.getResult().getUser().getUid());
-
+                            new SessionManager(act.getApplicationContext()).updateUid(task.getResult().getUser().getUid());
                             insertDatabase(mUser, new IGetInsertResult() {
                                 @Override
                                 public void onSuccess() {
@@ -69,15 +70,14 @@ public class RegisterInteractorImpl implements RegisterInteractor {
                 });
     }
 
-    public void insertDatabase(UserDTO user, IGetInsertResult result){
+    public void insertDatabase(UserDTO user, IGetInsertResult result) {
         mDatabase = FirebaseDatabase.getInstance().getReference();
-
-        if(user.getType().equalsIgnoreCase("clients")){
+        user.setFirstConnection(true);
+        if (user.getType().equalsIgnoreCase("clients")) {
             mDatabase.child("clients").child(user.getUid()).setValue(user);
-        }else{
+        } else {
             mDatabase.child("shops").child(user.getUid()).setValue(user);
         }
-
         result.onSuccess();
     }
 

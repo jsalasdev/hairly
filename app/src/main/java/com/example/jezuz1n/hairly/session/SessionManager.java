@@ -69,4 +69,9 @@ public class SessionManager {
         editor.commit();
     }
 
+    public void updateUid(String uid){
+        editor.putString(KEY_UID,uid);
+        editor.commit();
+    }
+
 }
