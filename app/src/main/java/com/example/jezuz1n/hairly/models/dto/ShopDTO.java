@@ -5,4 +5,57 @@ package com.example.jezuz1n.hairly.models.dto;
  */
 
 public class ShopDTO extends UserDTO {
+
+    private String address, description, nick, phone, province;
+
+    public ShopDTO(){}
+
+    public ShopDTO(String email, String type, String address, String description, String nick, String phone, String province) {
+        super(email, type);
+        this.address = address;
+        this.description = description;
+        this.nick = nick;
+        this.phone = phone;
+        this.province = province;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getNick() {
+        return nick;
+    }
+
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getProvince() {
+        return province;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
 }

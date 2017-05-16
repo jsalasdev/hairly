@@ -49,6 +49,13 @@ public class IndexShopActivity extends AppCompatActivity {
         sessionManager = new SessionManager(getApplicationContext());
 
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_navview, null);
+        initToolbar();
+        if(Boolean.parseBoolean(sessionManager.getUserDetails().get("firstConnection"))){
+            frag = new ShopEditProfileFragment();
+            sessionManager.updateFirstConnection();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+            getSupportActionBar().setTitle("Editar Perfil");
+        }
 
         ((TextView) nav_header.findViewById(R.id.usuario)).setText(sessionManager.getUserDetails().get("email"));
         navigationView.addHeaderView(nav_header);
@@ -96,7 +103,7 @@ public class IndexShopActivity extends AppCompatActivity {
             }
         });
 
-        initToolbar();
+
     }
 
     public void initToolbar(){

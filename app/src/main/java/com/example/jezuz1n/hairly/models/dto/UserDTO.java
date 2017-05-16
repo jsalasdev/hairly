@@ -6,15 +6,22 @@ package com.example.jezuz1n.hairly.models.dto;
 
 public class UserDTO {
 
-    private String name, email, address,uid, type, password;
+    private String email,uid, type, password;
+    boolean firstConnection;
 
     public UserDTO(){}
 
-    public UserDTO(String name, String email, String address, String type){
-        this.name = name;
+    public UserDTO(String email, String type){
         this.email = email;
-        this.address = address;
         this.type = type;
+    }
+
+    public boolean isFirstConnection() {
+        return firstConnection;
+    }
+
+    public void setFirstConnection(boolean firstConnection) {
+        this.firstConnection = firstConnection;
     }
 
     public String getType() {
@@ -33,28 +40,12 @@ public class UserDTO {
         this.password = password;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public String getUid() {
