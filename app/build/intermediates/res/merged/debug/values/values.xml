@@ -766,7 +766,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="address">Dirección</string>
+    <string name="address">Calle y C.P</string>
     <string name="app_name">Hairly</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="back_login">¿Ya tienes cuenta? Loguéate.</string>

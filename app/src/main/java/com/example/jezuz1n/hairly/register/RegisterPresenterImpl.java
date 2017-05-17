@@ -35,6 +35,7 @@ public class RegisterPresenterImpl implements RegisterPresenter, RegisterInterac
 
     @Override
     public void createSession(UserDTO user) {
+        user.setUid(sessionManager.getUserDetails().get(SessionManager.KEY_UID));
         sessionManager.createSession(user);
         view.showDialogProgress();
         view.navigateToIndex();

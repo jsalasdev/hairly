@@ -19,12 +19,12 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
     SessionManager sessionManager;
 
     public ShopEditProfilePresenterImpl(){
-        interactor = new ShopEditProfileInteractorImpl();
     }
 
     @Override
     public void initializeView(ShopEditProfileView act) {
         view = act;
+        interactor = new ShopEditProfileInteractorImpl(view.getAppContext());
         sessionManager = new SessionManager(view.getAppContext());
         loadData();
     }
@@ -32,7 +32,7 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
     @Override
     public void loadData() {
         view.showProgressBar();
-        interactor.getData(view.getAppContext(),this);
+        interactor.getData(this);
     }
 
     @Override

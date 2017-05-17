@@ -16,6 +16,6 @@ public interface ShopEditProfileInteractor {
         void onFailure();
     }
 
-    void getData(Context mContext, OnChargeDataFinishedListener listener);
+    void getData(OnChargeDataFinishedListener listener);
     void setData(ShopDTO shop, IGetResults result);
 }

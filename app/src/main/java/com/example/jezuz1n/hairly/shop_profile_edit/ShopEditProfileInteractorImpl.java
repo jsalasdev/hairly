@@ -1,10 +1,13 @@
 package com.example.jezuz1n.hairly.shop_profile_edit;
 
 import android.content.Context;
+import android.location.Address;
 
+import com.example.jezuz1n.hairly.models.dto.MarkerCustom;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.IGetResults;
+import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,9 +23,14 @@ import java.util.HashMap;
 public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor {
 
     DatabaseReference mDatabase;
+    Context mContext;
+
+    public ShopEditProfileInteractorImpl(Context context){
+        this.mContext = context;
+    }
 
     @Override
-    public void getData(Context mContext, final OnChargeDataFinishedListener listener) {
+    public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
 
         FirebaseDatabase.getInstance().getReference().child("shops").child(ops.get("uid"))
@@ -60,6 +68,9 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor 
     public void insertDatabase(ShopDTO user, IGetResults result) {
         try {
             mDatabase = FirebaseDatabase.getInstance().getReference();
+            Address a = LocationUtil.getLocationFromAddress(user.getAddress()+", "+user.getProvince(), mContext);
+            user.setLatitude(String.valueOf(a.getLatitude()));
+            user.setLongitude(String.valueOf(a.getLongitude()));
             mDatabase.child("shops").child(user.getUid()).setValue(user);
             result.onSuccess("Usuario actualizado");
         } catch (Exception e) {

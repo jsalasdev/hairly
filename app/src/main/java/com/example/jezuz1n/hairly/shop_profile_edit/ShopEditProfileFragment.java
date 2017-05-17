@@ -2,6 +2,7 @@ package com.example.jezuz1n.hairly.shop_profile_edit;
 
 import android.content.Context;
 import android.content.pm.PackageInstaller;
+import android.location.Address;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
@@ -123,6 +125,11 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         String email = etEmail.getText().toString();
         String description = etDescription.getText().toString();
         ShopDTO shop = new ShopDTO(email,null,address,description,nick,phone,province);
+        if(address!=null & !address.equalsIgnoreCase("")){
+        Address a = LocationUtil.getLocationFromAddress(address,getAppContext());
+            shop.setLongitude(String.valueOf(a.getLongitude()));
+            shop.setLatitude(String.valueOf(a.getLatitude()));
+        }
         return shop;
     }
 

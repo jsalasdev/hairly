@@ -31,6 +31,6 @@
     <string name="province">Provincia</string>
     <string name="description">Descripción</string>
     <string name="phone">Teléfono</string>
-    <string name="address">Dirección</string>
+    <string name="address">Calle y C.P</string>
     <string name="save">Listo</string>
 </resources>

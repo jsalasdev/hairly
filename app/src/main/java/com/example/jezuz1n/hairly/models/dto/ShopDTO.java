@@ -6,7 +6,7 @@ package com.example.jezuz1n.hairly.models.dto;
 
 public class ShopDTO extends UserDTO {
 
-    private String address, description, nick, phone, province;
+    private String address, description, nick, phone, province, latitude, longitude;
 
     public ShopDTO(){}
 
@@ -17,6 +17,22 @@ public class ShopDTO extends UserDTO {
         this.nick = nick;
         this.phone = phone;
         this.province = province;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
     public String getAddress() {
