@@ -16,5 +16,6 @@ public interface ShopEditProfileView {
     Context getAppContext();
     void setData(ShopDTO user);
     void showMsg(String msg);
+    void setProfileImg(String img);
 
 }

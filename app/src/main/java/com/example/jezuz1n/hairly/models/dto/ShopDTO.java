@@ -1,5 +1,10 @@
 package com.example.jezuz1n.hairly.models.dto;
 
+
+import android.net.Uri;
+
+import java.net.URI;
+
 /**
  * Created by jezuz1n on 15/05/2017.
  */
@@ -7,6 +12,8 @@ package com.example.jezuz1n.hairly.models.dto;
 public class ShopDTO extends UserDTO {
 
     private String address, description, nick, phone, province, latitude, longitude;
+    private Uri photoURL;
+
 
     public ShopDTO(){}
 
@@ -17,6 +24,14 @@ public class ShopDTO extends UserDTO {
         this.nick = nick;
         this.phone = phone;
         this.province = province;
+    }
+
+    public Uri getPhotoURL() {
+        return photoURL;
+    }
+
+    public void setPhotoURL(Uri photoURL) {
+        this.photoURL = photoURL;
     }
 
     public String getLatitude() {

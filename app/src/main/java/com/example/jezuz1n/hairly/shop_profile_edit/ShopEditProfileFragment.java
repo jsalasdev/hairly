@@ -1,18 +1,23 @@
 package com.example.jezuz1n.hairly.shop_profile_edit;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageInstaller;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Address;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
-import android.support.v7.widget.util.SortedListAdapterCallback;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -21,14 +26,34 @@ import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Arrays;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import butterknife.Optional;
 
 public class ShopEditProfileFragment extends Fragment implements ShopEditProfileView {
 
     ShopEditProfilePresenter presenter;
+
+    @BindView(R.id.simpleDraweeView)
+    SimpleDraweeView sdvProfile;
 
     @BindView(R.id.et_email_shop_profile)
     EditText etEmail;
@@ -54,6 +79,15 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     @BindView(R.id.cv_data_shop)
     CardView cvData;
 
+    private String imageDirectoryPath;
+    private InputStream imageInputStream;
+
+
+    private final String PATH_IMAGES = File.separator + "shops" + File.separator + "profiles" + File.separator;
+    private final int PICK_IMAGE_REQUEST = 201;
+    private final int WRITE_EXTERNAL_STORAGE = 203;
+
+
     public ShopEditProfileFragment() {
     }
 
@@ -62,7 +96,7 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
                              Bundle savedInstanceState) {
         Fresco.initialize(getContext());
         View view = inflater.inflate(R.layout.fragment_shop_edit_profile, container, false);
-        ButterKnife.bind(this,view);
+        ButterKnife.bind(this, view);
         presenter = new ShopEditProfilePresenterImpl();
         presenter.initializeView(this);
         showProgressBar();
@@ -103,13 +137,30 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         etPhone.setText(user.getPhone());
         etAddress.setText(user.getAddress());
         etDescription.setText(user.getDescription());
+        if(user.getPhotoURL()!=null){
+            sdvProfile.setImageURI(user.getPhotoURL());
+        }
         hideProgressBar();
         cvData.setVisibility(View.VISIBLE);
     }
 
+    @Optional
+    @OnClick({R.id.simpleDraweeView, R.id.tv_change_photo})
+    public void onClickPhoto() {
+        Intent intent = new Intent();
+        intent.setType("image/*");
+        intent.setAction(Intent.ACTION_PICK);
+        startActivityForResult(Intent.createChooser(intent, "Selecciona una imagen de perfil"), PICK_IMAGE_REQUEST);
+    }
+
     @Override
     public void showMsg(String msg) {
-        Toast.makeText(getContext(),msg,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void setProfileImg(String img) {
+
     }
 
     @OnClick(R.id.btn_shop_save_profile)
@@ -117,20 +168,57 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         presenter.updateData(getObject());
     }
 
-    public ShopDTO getObject(){
+    public ShopDTO getObject() {
         String nick = etNick.getText().toString();
         String address = etAddress.getText().toString();
         String phone = etPhone.getText().toString();
         String province = etProvince.getText().toString();
         String email = etEmail.getText().toString();
         String description = etDescription.getText().toString();
-        ShopDTO shop = new ShopDTO(email,null,address,description,nick,phone,province);
-        if(address!=null & !address.equalsIgnoreCase("")){
-        Address a = LocationUtil.getLocationFromAddress(address,getAppContext());
+        ShopDTO shop = new ShopDTO(email, null, address, description, nick, phone, province);
+        if (address != null & !address.equalsIgnoreCase("")) {
+            Address a = LocationUtil.getLocationFromAddress(address, getAppContext());
             shop.setLongitude(String.valueOf(a.getLongitude()));
             shop.setLatitude(String.valueOf(a.getLatitude()));
         }
         return shop;
+    }
+
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data!=null) {
+            try {
+                imageInputStream = getActivity().getContentResolver().openInputStream(data.getData());
+
+                String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
+
+                FirebaseStorage storage = FirebaseStorage.getInstance();
+                StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid+".png");
+                //uploading the image
+                UploadTask uploadTask = pathReference.putFile(data.getData());
+
+                uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                        //pd.dismiss();
+                        Log.i("prueba","bien");
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        //pd.dismiss();
+                        Log.i("prueba","bien");
+                    }
+                });
+
+                sdvProfile.setImageURI(data.getData());
+
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
 

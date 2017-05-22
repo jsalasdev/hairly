@@ -13,6 +13,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 import java.util.HashMap;
 
@@ -32,7 +34,6 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor 
     @Override
     public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
-
         FirebaseDatabase.getInstance().getReference().child("shops").child(ops.get("uid"))
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
