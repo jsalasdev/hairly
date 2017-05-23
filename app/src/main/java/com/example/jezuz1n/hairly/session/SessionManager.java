@@ -23,6 +23,7 @@ public class SessionManager {
     public static final String KEY_PASSWORD = "password";
     public static final String KEY_UID = "uid";
     public static final String KEY_TYPE  = "type";
+    public static final String KEY_FIRST_CONNECTION = "firstConnection";
 
     public SessionManager(Context context){
         this.context = context;
@@ -40,17 +41,17 @@ public class SessionManager {
         editor.putString(KEY_PASSWORD, user.getPassword());
         editor.putString(KEY_UID, user.getUid());
         editor.putString(KEY_TYPE, user.getType());
+        editor.putBoolean(KEY_FIRST_CONNECTION, user.isFirstConnection());
         editor.commit();
     }
 
     public HashMap<String, String> getUserDetails(){
         HashMap<String, String> user = new HashMap<String, String>();
-
         user.put(KEY_EMAIL, pref.getString(KEY_EMAIL, null));
         user.put(KEY_PASSWORD, pref.getString(KEY_PASSWORD, null));
         user.put(KEY_UID,pref.getString(KEY_UID,null));
         user.put(KEY_TYPE,pref.getString(KEY_TYPE,null));
-
+        user.put(KEY_FIRST_CONNECTION,String.valueOf(pref.getBoolean(KEY_FIRST_CONNECTION,true)));
         return user;
     }
 
@@ -60,6 +61,16 @@ public class SessionManager {
 
     public void logoutUser(){
         editor.clear();
+        editor.commit();
+    }
+
+    public void updateFirstConnection(){
+        editor.putBoolean(KEY_FIRST_CONNECTION,false);
+        editor.commit();
+    }
+
+    public void updateUid(String uid){
+        editor.putString(KEY_UID,uid);
         editor.commit();
     }
 

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryLight">#73CB76</color>
     <color name="colorPrimaryDark">#388E3C</color>
     <color name="colorAccent">#ffffff</color>
     <color name="colorBackground">#4CAF50</color>
     <color name="colorBackgroundEditText">#eaeaea</color>
     <color name="titleNavView">#0020FF</color>
-    <color name="colorBlack">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLightGray">#EDEBEB</color>
+    <color name="colorDarkGray">#A4A4A4</color>
+    <color name="colorBlack">#000000</color>
     <color name="colorRed">#ff3300</color>
 </resources>

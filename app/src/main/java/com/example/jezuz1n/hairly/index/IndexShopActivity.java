@@ -19,6 +19,7 @@ import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.shop_profile_edit.ShopEditProfileFragment;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
@@ -48,6 +49,13 @@ public class IndexShopActivity extends AppCompatActivity {
         sessionManager = new SessionManager(getApplicationContext());
 
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_navview, null);
+        initToolbar();
+        if(Boolean.parseBoolean(sessionManager.getUserDetails().get("firstConnection"))){
+            frag = new ShopEditProfileFragment();
+            sessionManager.updateFirstConnection();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+            getSupportActionBar().setTitle("Editar Perfil");
+        }
 
         ((TextView) nav_header.findViewById(R.id.usuario)).setText(sessionManager.getUserDetails().get("email"));
         navigationView.addHeaderView(nav_header);
@@ -70,6 +78,9 @@ public class IndexShopActivity extends AppCompatActivity {
                         fragmentTransition = true;
                         break;
                     case R.id.menu_perfil:
+                        //temporal
+                        frag = new ShopEditProfileFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.logout_user:
                         SessionManager sessionManager = new SessionManager(getApplicationContext());
@@ -92,7 +103,7 @@ public class IndexShopActivity extends AppCompatActivity {
             }
         });
 
-        initToolbar();
+
     }
 
     public void initToolbar(){

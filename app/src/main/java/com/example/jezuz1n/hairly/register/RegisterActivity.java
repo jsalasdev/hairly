@@ -138,6 +138,7 @@ public class RegisterActivity extends AppCompatActivity implements RegisterView 
         user.setEmail(etEmail.getText().toString());
         user.setType(getType());
         user.setPassword(etPassword.getText().toString());
+        user.setFirstConnection(true);
         return user;
     }
 

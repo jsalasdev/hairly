@@ -54,7 +54,7 @@
         android:id="@+id/btn_login_activity"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/title_activity_login"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -93,6 +93,7 @@
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_marginTop="22dp"
         android:layout_below="@+id/btn_login_activity"
         android:layout_alignParentStart="true" />
