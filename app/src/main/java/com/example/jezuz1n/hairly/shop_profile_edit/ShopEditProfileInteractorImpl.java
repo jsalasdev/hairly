@@ -70,8 +70,10 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor 
         try {
             mDatabase = FirebaseDatabase.getInstance().getReference();
             Address a = LocationUtil.getLocationFromAddress(user.getAddress()+", "+user.getProvince(), mContext);
-            user.setLatitude(String.valueOf(a.getLatitude()));
-            user.setLongitude(String.valueOf(a.getLongitude()));
+            if(a!=null){
+                user.setLatitude(String.valueOf(a.getLatitude()));
+                user.setLongitude(String.valueOf(a.getLongitude()));
+            }
             mDatabase.child("shops").child(user.getUid()).setValue(user);
             result.onSuccess("Usuario actualizado");
         } catch (Exception e) {

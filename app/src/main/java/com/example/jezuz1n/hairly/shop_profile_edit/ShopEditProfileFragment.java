@@ -1,16 +1,12 @@
 package com.example.jezuz1n.hairly.shop_profile_edit;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.location.Address;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
 import android.util.Log;
@@ -27,21 +23,15 @@ import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Arrays;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -137,7 +127,7 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         etPhone.setText(user.getPhone());
         etAddress.setText(user.getAddress());
         etDescription.setText(user.getDescription());
-        if(user.getPhotoURL()!=null){
+        if (user.getPhotoURL() != null) {
             sdvProfile.setImageURI(user.getPhotoURL());
         }
         hideProgressBar();
@@ -178,46 +168,38 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         ShopDTO shop = new ShopDTO(email, null, address, description, nick, phone, province);
         if (address != null & !address.equalsIgnoreCase("")) {
             Address a = LocationUtil.getLocationFromAddress(address, getAppContext());
-            shop.setLongitude(String.valueOf(a.getLongitude()));
-            shop.setLatitude(String.valueOf(a.getLatitude()));
+            if (a != null) {
+                shop.setLongitude(String.valueOf(a.getLongitude()));
+                shop.setLatitude(String.valueOf(a.getLatitude()));
+            }
         }
         return shop;
     }
 
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode,final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data!=null) {
-            try {
-                imageInputStream = getActivity().getContentResolver().openInputStream(data.getData());
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data != null) {
 
                 String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
-
                 FirebaseStorage storage = FirebaseStorage.getInstance();
-                StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid+".png");
-                //uploading the image
+                StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid + ".png");
+
                 UploadTask uploadTask = pathReference.putFile(data.getData());
 
                 uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         //pd.dismiss();
-                        Log.i("prueba","bien");
+                        sdvProfile.setImageURI(taskSnapshot.getDownloadUrl());
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        //pd.dismiss();
-                        Log.i("prueba","bien");
+                        showMsg("Error al subir la imagen.");
                     }
                 });
-
-                sdvProfile.setImageURI(data.getData());
-
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
         }
     }
 
