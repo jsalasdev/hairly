@@ -12,28 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b10bb4-1c93-46d9-a272-186b5042e30f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/MarkerCustom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/LocationUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterPresenterImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterPresenterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Hairly.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,117 +52,7 @@
     <favorites_list name="Hairly" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShopEditProfilePresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopEditProfileFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopEditProfileInteractorImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_shop_edit_profile.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_edit_profile.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/LocationUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/session/SessionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterInteractorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterInteractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2296,7 +2169,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/IGetInsertResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/client_profile_edit/ClientEditProfileFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_client_edit_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_navview.xml" />
@@ -2316,7 +2188,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ClientDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/IGetResults.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/index/IndexShopActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/UserDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java" />
@@ -2326,12 +2197,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/MarkerCustom.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_edit_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java" />
       </list>
     </option>
   </component>
@@ -2366,12 +2239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2522,6 +2390,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hairlyproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hairlyproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2600,6 +2498,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2611,7 +2514,7 @@
     <property name="device.picker.selection" value="MC010633" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Shop&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java&#10;ShopE&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java&#10;Register&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;Index&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/index/IndexShopActivity.java&#10;ShopDT&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java&#10;Login&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginInteractorImpl.java&#10;ShopD&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java&#10;User&#9;PSI&#9;JAVA://com.example.jezuz1n.hairly.models.dto.UserDTO&#10;View&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java&#10;Fra&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/view/FragmentTest.java&#10;LoginA&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginActivity.java&#10;RegisterInter&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java&#10;LoginIntera&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginInteractorImpl.java&#10;LoginAc&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginActivity.java&#10;RegistervIEW&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterView.java&#10;RegisterView&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterView.java&#10;Validat&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/utils/ValidatorUtil.java&#10;Reg&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractorImpl.java&#10;LoginView&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginView.java&#10;Usert&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/UserDTO.java&#10;Regist&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;RegisterA&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;LoginP&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginPresenterImpl.java&#10;RegisterInterac&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java&#10;RegisterPrese&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterPresenterImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="Inte&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java&#10;Shop&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java&#10;INTER&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java&#10;buil&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/build.gradle&#10;Manife&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/AndroidManifest.xml&#10;ShopE&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java&#10;Register&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;Index&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/index/IndexShopActivity.java&#10;ShopDT&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java&#10;Login&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginInteractorImpl.java&#10;ShopD&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java&#10;User&#9;PSI&#9;JAVA://com.example.jezuz1n.hairly.models.dto.UserDTO&#10;View&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java&#10;Fra&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/view/FragmentTest.java&#10;LoginA&#9;FILE&#9;file://C:/Users/jezuz1n/AndroidStudioProjects/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginActivity.java&#10;RegisterInter&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java&#10;LoginIntera&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginInteractorImpl.java&#10;LoginAc&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginActivity.java&#10;RegistervIEW&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterView.java&#10;RegisterView&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterView.java&#10;Validat&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/utils/ValidatorUtil.java&#10;Reg&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractorImpl.java&#10;LoginView&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginView.java&#10;Usert&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/models/dto/UserDTO.java&#10;Regist&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;RegisterA&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterActivity.java&#10;LoginP&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/login/LoginPresenterImpl.java&#10;RegisterInterac&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractor.java&#10;RegisterPrese&#9;FILE&#9;file:///Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterPresenterImpl.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -3100,7 +3003,21 @@
       <option name="project" value="LOCAL" />
       <updated>1494969980554</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Arreglado la gestión de la UID y añadido la localización de lat y long al actualizar o registrar usuario.">
+      <created>1495047825075</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1495047825075</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implementacion carga y subida imagen de perfil">
+      <created>1495486211297</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1495486211297</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3114,28 +3031,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.82451254" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6908078" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31017193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7172702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.48614073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20630373" sideWeight="0.48614073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26595744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44150418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26817447" sideWeight="0.5138593" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3188,7 +3105,9 @@
     <MESSAGE value="Estructura para la gestion de la edición del perfil&#10;" />
     <MESSAGE value="Terminado el módulo de edición de perfil de las peluquerias.&#10;" />
     <MESSAGE value="Terminado el módulo de edición de perfil de las peluquerias.&#10;*Falta arreglar la gestion del UID." />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado el módulo de edición de perfil de las peluquerias.&#10;*Falta arreglar la gestion del UID." />
+    <MESSAGE value="Arreglado la gestión de la UID y añadido la localización de lat y long al actualizar o registrar usuario." />
+    <MESSAGE value="Implementacion carga y subida imagen de perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion carga y subida imagen de perfil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3261,49 +3180,25 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
-          <line>34</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java</url>
-          <line>99</line>
+          <line>133</line>
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java</url>
-          <line>79</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
-          <line>40</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
@@ -3363,7 +3258,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java</url>
-          <line>35</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
@@ -3399,49 +3294,56 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java</url>
-          <line>69</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/LocationUtil.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java</url>
-          <line>73</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="136" />
+      <option name="time" value="170" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-25/android.jar!/android/content/Context.class" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_client_edit_profile.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/maps/GMapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3556,14 +3458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/view_test/FragmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -3674,7 +3568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="655" column="20" selection-start-line="655" selection-start-column="20" selection-end-line="655" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3682,7 +3575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3690,19 +3582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3734,7 +3613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3742,13 +3620,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/register/RegisterInteractorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="544">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
@@ -3766,9 +3643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3777,18 +3651,18 @@
         <state relative-caret-position="238">
           <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3801,63 +3675,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        <state relative-caret-position="289">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/LocationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/models/dto/ShopDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_edit_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/utils/LocationUtil.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfilePresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3866,12 +3742,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileInteractorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state relative-caret-position="17">
+          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_edit_profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jezuz1n/hairly/shop_profile_edit/ShopEditProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
