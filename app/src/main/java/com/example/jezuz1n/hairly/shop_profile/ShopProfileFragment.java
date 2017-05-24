@@ -1,6 +1,7 @@
 package com.example.jezuz1n.hairly.shop_profile;
 
 import android.app.DatePickerDialog;
+import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.graphics.Color;
@@ -18,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -63,6 +65,8 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
     @BindView(R.id.tv_phone_shop_profile)
     TextView tvPhone;
+
+    ProgressDialog progressDialog;
 
     ShopProfilePresenter presenter;
 
@@ -112,12 +116,22 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
     @Override
     public void showProgressBar() {
+        progressDialog = ProgressDialog.show(getContext(), "Actualizando información", "Conectando...", true);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(10000);
+                } catch (Exception e) {
+                }
+            }
+        }).start();
 
     }
 
     @Override
     public void hideProgressBar() {
-
+        progressDialog.dismiss();
     }
 
     @Override
@@ -156,8 +170,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
         if(shop.getDescription()!=null){
             tvDescription.setText(shop.getDescription());
         }
-        //setear todos los atributos de shop
-
+        hideProgressBar();
     }
 
     @Override
@@ -176,7 +189,6 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
         final int mYear, mMonth, mDay;
 
-        //abrir dialogo fecha y despues el de hora
         final Calendar c = Calendar.getInstance();
         mYear = c.get(Calendar.YEAR);
         mMonth = c.get(Calendar.MONTH) + 1;
@@ -207,7 +219,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
                                         CitaDTO cita = new CitaDTO(dayOfMonth, monthOfYear, year, hourOfDay, minute);
 
                                         //enviar objeto al presenter
-
+                                        presenter.setCita(cita);
 
                                     }
                                 }, mHour, mMinute, false);

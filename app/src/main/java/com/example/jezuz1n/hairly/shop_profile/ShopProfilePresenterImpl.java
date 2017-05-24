@@ -26,6 +26,7 @@ public class ShopProfilePresenterImpl implements ShopProfilePresenter {
 
     @Override
     public void loadData() {
+            view.showProgressBar();
             interactor.getData(new ShopProfileInteractor.OnChargeDataFinishedListener() {
                 @Override
                 public void onSuccess(ShopDTO user) {
