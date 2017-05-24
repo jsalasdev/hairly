@@ -52,6 +52,10 @@
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_inicio.png"
     },
     {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_edit_profile.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_edit_profile.png"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_email.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_email.png"
     }
