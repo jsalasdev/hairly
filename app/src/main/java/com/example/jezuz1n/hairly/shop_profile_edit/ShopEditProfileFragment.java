@@ -69,14 +69,7 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     @BindView(R.id.cv_data_shop)
     CardView cvData;
 
-    private String imageDirectoryPath;
-    private InputStream imageInputStream;
-
-
-    private final String PATH_IMAGES = File.separator + "shops" + File.separator + "profiles" + File.separator;
     private final int PICK_IMAGE_REQUEST = 201;
-    private final int WRITE_EXTERNAL_STORAGE = 203;
-
 
     public ShopEditProfileFragment() {
     }
@@ -175,7 +168,6 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         }
         return shop;
     }
-
 
     @Override
     public void onActivityResult(int requestCode, int resultCode,final Intent data) {
