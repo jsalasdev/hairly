@@ -185,8 +185,6 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
     @Override
     public void onClick(View view) {
-        Log.i("boton", "pulsado");
-
         final int mYear, mMonth, mDay;
 
         final Calendar c = Calendar.getInstance();

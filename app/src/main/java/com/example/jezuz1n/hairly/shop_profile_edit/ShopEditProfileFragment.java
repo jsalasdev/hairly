@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.location.Address;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -18,8 +19,10 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.jobs.PostImageJob;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
@@ -170,28 +173,26 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     }
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode,final Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data != null) {
-
-                String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
-                FirebaseStorage storage = FirebaseStorage.getInstance();
-                StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid + ".png");
-
-                UploadTask uploadTask = pathReference.putFile(data.getData());
-
-                uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            try {
+                PostImageJob postImageJob = new PostImageJob(data.getData(), getAppContext(), new IGetResults<Uri>() {
                     @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        //pd.dismiss();
-                        sdvProfile.setImageURI(taskSnapshot.getDownloadUrl());
+                    public void onSuccess(Uri object) {
+                        sdvProfile.setImageURI(object);
                     }
-                }).addOnFailureListener(new OnFailureListener() {
+
                     @Override
-                    public void onFailure(@NonNull Exception e) {
-                        showMsg("Error al subir la imagen.");
+                    public void onFailure(Uri object) {
+
                     }
                 });
+
+                postImageJob.onRun();
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
         }
     }
 
