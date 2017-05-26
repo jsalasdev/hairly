@@ -38,6 +38,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:9.6.1'
     compile 'com.facebook.fresco:fresco:1.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.path:android-priority-jobqueue:1.1.2'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

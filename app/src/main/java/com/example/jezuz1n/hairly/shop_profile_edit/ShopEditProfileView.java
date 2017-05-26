@@ -11,10 +11,17 @@ import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 public interface ShopEditProfileView {
 
     void showProgressBar();
+
     void hideProgressBar();
+
     void navigateToIndex();
+
     Context getAppContext();
+
     void setData(ShopDTO user);
+
     void showMsg(String msg);
+
+    void setProfileImg(String img);
 
 }
