@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_map.png",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_map.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_gestion_citas.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_gestion_citas.png"
     },
@@ -16,40 +12,108 @@
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_citas.png",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_citas.png"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_profile.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_address.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_address.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_email.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_email.png"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_name_profile.png",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_name_profile.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_material.png",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\background_material.png"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_nav_menu.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_nav_menu.png"
     },
     {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_gestion_citas.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_gestion_citas.png"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_address.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_address.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logout_user.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_logout_user.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_inicio.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_inicio.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_edit_profile.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_edit_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_citas.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_citas.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_map.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_map.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_map.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_map.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_nav_menu.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_nav_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_inicio.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_inicio.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_name_profile.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_name_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_citas.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_citas.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_name_profile.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_name_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_material.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\background_material.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_material.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\background_material.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_historial_citas.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_historial_citas.png"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_historial_citas.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_historial_citas.png"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_inicio.png",
-        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_inicio.png"
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_edit_profile.png",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-hdpi\\ic_edit_profile.png"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_email.png",

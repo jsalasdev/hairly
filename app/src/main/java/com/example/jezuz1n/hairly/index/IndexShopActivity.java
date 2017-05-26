@@ -19,6 +19,7 @@ import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.shop_profile.ShopProfileFragment;
 import com.example.jezuz1n.hairly.shop_profile_edit.ShopEditProfileFragment;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
@@ -78,7 +79,10 @@ public class IndexShopActivity extends AppCompatActivity {
                         fragmentTransition = true;
                         break;
                     case R.id.menu_perfil:
-                        //temporal
+                        frag = new ShopProfileFragment();
+                        fragmentTransition = true;
+                        break;
+                    case R.id.menu_perfil_edit:
                         frag = new ShopEditProfileFragment();
                         fragmentTransition = true;
                         break;

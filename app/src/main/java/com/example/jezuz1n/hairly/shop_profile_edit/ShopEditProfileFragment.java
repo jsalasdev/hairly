@@ -3,13 +3,13 @@ package com.example.jezuz1n.hairly.shop_profile_edit;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.location.Address;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,20 +18,12 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.jobs.PostImageShopJob;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
-import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.example.jezuz1n.hairly.utils.LocationUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -69,14 +61,7 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     @BindView(R.id.cv_data_shop)
     CardView cvData;
 
-    private String imageDirectoryPath;
-    private InputStream imageInputStream;
-
-
-    private final String PATH_IMAGES = File.separator + "shops" + File.separator + "profiles" + File.separator;
     private final int PICK_IMAGE_REQUEST = 201;
-    private final int WRITE_EXTERNAL_STORAGE = 203;
-
 
     public ShopEditProfileFragment() {
     }
@@ -149,6 +134,11 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     }
 
     @Override
+    public Bitmap getImage() {
+        return sdvProfile.getDrawingCache();
+    }
+
+    @Override
     public void setProfileImg(String img) {
 
     }
@@ -176,30 +166,27 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
         return shop;
     }
 
-
     @Override
-    public void onActivityResult(int requestCode, int resultCode,final Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data != null) {
-
-                String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
-                FirebaseStorage storage = FirebaseStorage.getInstance();
-                StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid + ".png");
-
-                UploadTask uploadTask = pathReference.putFile(data.getData());
-
-                uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            try {
+                PostImageShopJob postImageShopJob = new PostImageShopJob(data.getData(), getAppContext(), new IGetResults<Uri>() {
                     @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        //pd.dismiss();
-                        sdvProfile.setImageURI(taskSnapshot.getDownloadUrl());
+                    public void onSuccess(Uri object) {
+                        sdvProfile.setImageURI(object);
                     }
-                }).addOnFailureListener(new OnFailureListener() {
+
                     @Override
-                    public void onFailure(@NonNull Exception e) {
-                        showMsg("Error al subir la imagen.");
+                    public void onFailure(Uri object) {
+
                     }
                 });
+
+                postImageShopJob.onRun();
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
         }
     }
 

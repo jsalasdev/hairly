@@ -798,6 +798,7 @@
     <string name="create_account">CREAR CUENTA</string>
     <string name="default_web_client_id" translatable="false">366818925474-tp57rk09gkv8ca8g00180mc48i9hssrh.apps.googleusercontent.com</string>
     <string name="description">Descripción</string>
+    <string name="editar_perfil">Editar Perfil</string>
     <string name="email">Correo</string>
     <string name="error">Inserte sus credenciales de nuevo</string>
     <string name="error_email">Error al insertar email</string>
@@ -2359,5 +2360,11 @@
         <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    </style>
+    <style name="datepicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="actionMenuTextColor">@color/colorPrimary</item>
     </style>
 </resources>

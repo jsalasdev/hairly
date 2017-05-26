@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 
+import com.example.jezuz1n.hairly.jobs.GetImageJob;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.IGetResults;
@@ -24,7 +25,7 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
     ShopEditProfileInteractor interactor;
     SessionManager sessionManager;
 
-    public ShopEditProfilePresenterImpl(){
+    public ShopEditProfilePresenterImpl() {
     }
 
     @Override
@@ -32,6 +33,7 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
         view = act;
         interactor = new ShopEditProfileInteractorImpl(view.getAppContext());
         sessionManager = new SessionManager(view.getAppContext());
+
         loadData();
     }
 
@@ -66,19 +68,26 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
 
     @Override
     public void onSuccess(final ShopDTO user) {
-        StorageReference storage = FirebaseStorage.getInstance().getReference();
-        storage.child("shops").child("profiles").child(user.getUid()+".png").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-            @Override
-            public void onSuccess(Uri uri) {
-                user.setPhotoURL(uri);
-                view.setData(user);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception exception) {
-                view.setData(user);
-            }
-        });
+        try {
+            GetImageJob job = new GetImageJob(user.getUid(), view.getAppContext(), new IGetResults<Uri>() {
+                @Override
+                public void onSuccess(Uri object) {
+                    user.setPhotoURL(object);
+                    view.setData(user);
+                }
+
+                @Override
+                public void onFailure(Uri object) {
+                    if(object==null){
+                        view.setData(user);
+                    }
+                }
+            });
+            job.onRun();
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
+        }
+
     }
 
     @Override
