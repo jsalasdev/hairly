@@ -1,23 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
@@ -36,12 +24,16 @@
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
@@ -56,6 +48,10 @@
         "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\\output\\res\\color\\design_error.xml"
+    },
+    {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_spinner.xml"
     },
@@ -64,12 +60,8 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -80,16 +72,8 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
@@ -100,16 +84,12 @@
         "source": "C:\\Users\\jsalas\\.android\\build-cache\\77a26dae9eca7b8e3d5b34ee268cd55f2a7136c5\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
@@ -120,32 +100,28 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\color\\design_error.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -164,16 +140,12 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_error.xml"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
@@ -188,36 +160,20 @@
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\77a26dae9eca7b8e3d5b34ee268cd55f2a7136c5\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
@@ -228,20 +184,12 @@
         "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
@@ -254,6 +202,166 @@
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\f7aef78df0837db72d85a197b2c0d8904718041c\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\b6f163a47488a20ac42d69af16d4e182193566ac\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jsalas\\.android\\build-cache\\77a26dae9eca7b8e3d5b34ee268cd55f2a7136c5\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\AndroidStudioProjects\\Hairly\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\7179305d48d906d65a3c908faed6ad3d1c90eab3\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
@@ -274,17 +382,5 @@
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsalas\\APLICACIONES ANDROID\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\jsalas\\.android\\build-cache\\856b4ebe3f9fb9b0d3c430286525c5284cdc27d7\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     }
 ]
