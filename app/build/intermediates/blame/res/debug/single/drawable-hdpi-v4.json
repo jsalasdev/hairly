@@ -20,12 +20,12 @@
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\68facf68c9f777f584cbdf155d823b881a460fe1\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\4e477183df0e2abc7913df843fcc9d3627cd2ad7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",

@@ -82,13 +82,26 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
         View view = inflater.inflate(R.layout.fragment_shop_profile, container, false);
         ButterKnife.bind(this, view);
         presenter = new ShopProfilePresenterImpl(this);
-        presenter.loadData();
-//        if(new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("client")){
-//            insertBtn();
-//        }
-        insertBtn();
+
+        Bundle b = getArguments();
+
+        if(b!=null){
+            presenter.loadData(b.getString("uid"));
+        }else{
+            presenter.loadData();
+        }
+
+        if(new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("client")){
+            insertBtn();
+        }
 
         return view;
+    }
+
+    public static ShopProfileFragment newInstance(Bundle b) {
+        ShopProfileFragment fragment = new ShopProfileFragment();
+        fragment.setArguments(b);
+        return fragment;
     }
 
     public void insertBtn() {
@@ -132,11 +145,6 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
     @Override
     public void hideProgressBar() {
         progressDialog.dismiss();
-    }
-
-    @Override
-    public void showDialog() {
-
     }
 
     @Override

@@ -2,7 +2,6 @@ package com.example.jezuz1n.hairly.jobs;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
@@ -19,21 +18,18 @@ import com.path.android.jobqueue.Job;
 import com.path.android.jobqueue.Params;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.Random;
 
 /**
  * Created by jezuz1n on 25/05/2017.
  */
 
-public class PostImageJob extends Job {
+public class PostImageShopJob extends Job {
 
     IGetResults<Uri> listener;
     Context mContext;
     Uri uri;
 
-    public PostImageJob(Uri uri, Context c, IGetResults<Uri> listener){
+    public PostImageShopJob(Uri uri, Context c, IGetResults<Uri> listener){
         super(new Params(1).requireNetwork().persist());
         this.uri = uri;
         this.mContext = c;
@@ -54,7 +50,7 @@ public class PostImageJob extends Job {
         Uri imageUri = uri;
         Bitmap b = MediaStore.Images.Media.getBitmap(mContext.getContentResolver(),imageUri);
 
-        Bitmap bitmap = PostImageJob.getScaledBitmap(b,150,150);
+        Bitmap bitmap = PostImageShopJob.getScaledBitmap(b,150,150);
 
         UploadTask uploadTask = pathReference.putFile(getImageUri(mContext,bitmap));
 

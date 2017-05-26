@@ -25,6 +25,22 @@ public class ShopProfilePresenterImpl implements ShopProfilePresenter {
     }
 
     @Override
+    public void loadData(String uid) {
+        view.showProgressBar();
+        interactor.getData(uid, new ShopProfileInteractor.OnChargeDataFinishedListener() {
+            @Override
+            public void onSuccess(ShopDTO user) {
+                getPhoto(user);
+            }
+
+            @Override
+            public void onFailure() {
+                view.showMsg("Error al cargar los datos.");
+            }
+        });
+    }
+
+    @Override
     public void loadData() {
             view.showProgressBar();
             interactor.getData(new ShopProfileInteractor.OnChargeDataFinishedListener() {

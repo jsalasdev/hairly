@@ -8,6 +8,7 @@ import com.example.jezuz1n.hairly.models.dto.CitaDTO;
 
 public interface ShopProfilePresenter {
 
+    void loadData(String uid);
     void loadData();
     void setCita(CitaDTO cita);
 

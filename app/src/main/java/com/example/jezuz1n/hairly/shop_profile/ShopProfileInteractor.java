@@ -21,6 +21,7 @@ public interface ShopProfileInteractor {
     }
 
     void getData(OnChargeDataFinishedListener listener);
+    void getData(String uid, OnChargeDataFinishedListener listener);
     void uploadCita(CitaDTO cita, OnUploadCitaFinishedListener listener);
 
 }

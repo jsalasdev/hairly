@@ -12,7 +12,6 @@ public interface ShopProfileView {
 
     void showProgressBar();
     void hideProgressBar();
-    void showDialog();
     void setData(ShopDTO shop);
     void showMsg(String msg);
     Context getAppContext();

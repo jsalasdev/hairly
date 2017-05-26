@@ -46,6 +46,23 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
     }
 
     @Override
+    public void getData(String uid,final OnChargeDataFinishedListener listener) {
+        FirebaseDatabase.getInstance().getReference().child("shops").child(uid)
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        ShopDTO user = dataSnapshot.getValue(ShopDTO.class);
+                        listener.onSuccess(user);
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        listener.onFailure();
+                    }
+                });
+    }
+
+    @Override
     public void uploadCita(CitaDTO cita, OnUploadCitaFinishedListener listener) {
         try {
             mDatabase = FirebaseDatabase.getInstance().getReference();

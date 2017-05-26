@@ -28,12 +28,12 @@
         "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logout_user.png"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_nav_menu.png",
-        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_nav_menu.png"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_inicio.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_inicio.png"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_nav_menu.png",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_nav_menu.png"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_address.png",
