@@ -33,6 +33,7 @@ public class ShopEditProfilePresenterImpl implements ShopEditProfilePresenter, S
         view = act;
         interactor = new ShopEditProfileInteractorImpl(view.getAppContext());
         sessionManager = new SessionManager(view.getAppContext());
+
         loadData();
     }
 

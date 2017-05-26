@@ -3,6 +3,7 @@ package com.example.jezuz1n.hairly.shop_profile_edit;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.location.Address;
 import android.net.Uri;
 import android.os.Bundle;
@@ -142,6 +143,11 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
     @Override
     public void showMsg(String msg) {
         Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public Bitmap getImage() {
+        return sdvProfile.getDrawingCache();
     }
 
     @Override

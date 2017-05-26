@@ -69,12 +69,12 @@ ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main
 		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:22-69
 application
 ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:22:5-60:19
-MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\98f73f8eb31bb3b82e4020b5701de1c25936dce1\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\b6f163a47488a20ac42d69af16d4e182193566ac\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\936cb11d8d88c52c17653001411351b2d6fc8b35\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\de7744d9c437559fe7dc20577f814b32b0a995a2\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\2432551eb97a67265dc373437807b119558a5775\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:26:5-20
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jesus.salas\.android\build-cache\19470227f9df054d02154049e84df0a0d5d43869\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jesus.salas\.android\build-cache\665c2d0507ccd745401129ba40439f4a48575bd7\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:24:5-33:19
@@ -87,12 +87,12 @@ MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.sal
 MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jesus.salas\.android\build-cache\299857e1d5757cb3ab5d8d1fc2e901dc7f991353\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\c4ab1644f5a71f7054da3e63a5b98abdbb546dd2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\8fb2aac273d38edadd2bb2f6d3efd37498aab771\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\47603797bc4415d6ea6acb062715fbd092afe083\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\1f48c207f9bbb7fe90d25b8a106c8c4df5aadba2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\5e3caa746b0f36783362e6cca7da0a7995e4dbce\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\0052d1d030fb5f52a81e671c16b45002b421d43d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jesus.salas\.android\build-cache\55f05a0a1b81b4befd17e5cd6645ae1866a225a2\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:25:9-41
@@ -167,12 +167,12 @@ ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main
 		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:19-58
 uses-sdk
 INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\98f73f8eb31bb3b82e4020b5701de1c25936dce1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\b6f163a47488a20ac42d69af16d4e182193566ac\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\936cb11d8d88c52c17653001411351b2d6fc8b35\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\de7744d9c437559fe7dc20577f814b32b0a995a2\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\2432551eb97a67265dc373437807b119558a5775\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:20:5-43
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jesus.salas\.android\build-cache\19470227f9df054d02154049e84df0a0d5d43869\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jesus.salas\.android\build-cache\665c2d0507ccd745401129ba40439f4a48575bd7\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:17:5-42
@@ -187,17 +187,17 @@ MERGED from [com.google.firebase:firebase-auth-common:9.6.1] C:\Users\jesus.sala
 MERGED from [com.google.firebase:firebase-auth-module:9.6.1] C:\Users\jesus.salas\.android\build-cache\5edfa76afa601732e601c58e8af0381ef3f05397\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:3:5-42
 MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jesus.salas\.android\build-cache\9291d8f3a5c99dbe228e11ceea20ff30de153c53\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\6c09a061c17d19ffa4f91b11a33151def504aec0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ac59d87e14e7c7128a281a508fc99e726baaa6e0\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\AndroidManifest.xml:23:5-42
 MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jesus.salas\.android\build-cache\299857e1d5757cb3ab5d8d1fc2e901dc7f991353\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\c4ab1644f5a71f7054da3e63a5b98abdbb546dd2\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\8fb2aac273d38edadd2bb2f6d3efd37498aab771\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\47603797bc4415d6ea6acb062715fbd092afe083\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\1f48c207f9bbb7fe90d25b8a106c8c4df5aadba2\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\5e3caa746b0f36783362e6cca7da0a7995e4dbce\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\0052d1d030fb5f52a81e671c16b45002b421d43d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\jesus.salas\.android\build-cache\1a4afada00d78d975a08a2cdc8c893414e4a984a\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\jesus.salas\.android\build-cache\6068909241fe77ef2e52463636513d8aa660cf74\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\jesus.salas\.android\build-cache\d0d97780662e3316f41be71827feef211184fcc4\output\AndroidManifest.xml:5:5-7:41
@@ -205,7 +205,7 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\jesus.salas\
 MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\jesus.salas\.android\build-cache\9646f7805db01c575bc14704a9745afef5c5ca3d\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jesus.salas\.android\build-cache\55f05a0a1b81b4befd17e5cd6645ae1866a225a2\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
@@ -213,23 +213,23 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\je
 		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\98f73f8eb31bb3b82e4020b5701de1c25936dce1\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\b6f163a47488a20ac42d69af16d4e182193566ac\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\936cb11d8d88c52c17653001411351b2d6fc8b35\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\de7744d9c437559fe7dc20577f814b32b0a995a2\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\2432551eb97a67265dc373437807b119558a5775\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\6c09a061c17d19ffa4f91b11a33151def504aec0\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\c4ab1644f5a71f7054da3e63a5b98abdbb546dd2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\8fb2aac273d38edadd2bb2f6d3efd37498aab771\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\47603797bc4415d6ea6acb062715fbd092afe083\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\1f48c207f9bbb7fe90d25b8a106c8c4df5aadba2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\5e3caa746b0f36783362e6cca7da0a7995e4dbce\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\0052d1d030fb5f52a81e671c16b45002b421d43d\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ac59d87e14e7c7128a281a508fc99e726baaa6e0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\a97243cbd2ccdc5c1b277bfa8b7b4377d7e7551a\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:22:5-67
