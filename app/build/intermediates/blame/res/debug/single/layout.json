@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shop_edit_profile.xml",
@@ -20,12 +20,12 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -60,20 +60,20 @@
         "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\activity_index_shop.xml"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shop_edit_profile.xml",
+        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\fragment_shop_edit_profile.xml"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shop_edit_profile.xml",
-        "source": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\fragment_shop_edit_profile.xml"
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\c07f46688b444044473b7b06d7745c5716affdd7\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_navview.xml",

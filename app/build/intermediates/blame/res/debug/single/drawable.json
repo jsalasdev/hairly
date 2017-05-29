@@ -148,20 +148,20 @@
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logo_web.png",
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\drawable\\ic_logo_web.png"
     },
     {
-        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\84bfaae3c939a9083abe32fc744f3f77713d12db\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\84bfaae3c939a9083abe32fc744f3f77713d12db\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jesus.salas\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\jesus.salas\\.android\\build-cache\\84bfaae3c939a9083abe32fc744f3f77713d12db\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
