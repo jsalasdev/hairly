@@ -106,12 +106,30 @@ public class ShopEditProfileFragment extends Fragment implements ShopEditProfile
 
     @Override
     public void setData(ShopDTO user) {
-        etEmail.setText(user.getEmail());
-        etNick.setText(user.getNick());
-        etProvince.setText(user.getProvince());
-        etPhone.setText(user.getPhone());
-        etAddress.setText(user.getAddress());
-        etDescription.setText(user.getDescription());
+        if(user.getEmail()!=null){
+            etEmail.setText(user.getEmail());
+        }
+
+        if(user.getNick()!=null){
+            etNick.setText(user.getNick());
+        }
+
+        if(user.getProvince()!=null){
+            etProvince.setText(user.getProvince());
+        }
+
+        if(user.getPhone()!=null){
+            etPhone.setText(user.getPhone());
+        }
+
+        if(user.getAddress()!=null){
+            etAddress.setText(user.getAddress());
+        }
+
+        if(user.getDescription()!=null){
+            etDescription.setText(user.getDescription());
+        }
+
         if (user.getPhotoURL() != null) {
             sdvProfile.setImageURI(user.getPhotoURL());
         }

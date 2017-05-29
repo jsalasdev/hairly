@@ -814,6 +814,7 @@
     <string name="inicio">Inicio</string>
     <string name="logout_user">Cerrar sesión</string>
     <string name="mapa_centros">Mapa de Centros</string>
+    <string name="nick_client">Nick</string>
     <string name="nick_shop">Nick de tienda</string>
     <string name="password">Contraseña</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>

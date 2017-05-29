@@ -30,7 +30,7 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor,
     public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
         try {
-            GetDataUserJob job = new GetDataUserJob(mContext, ops.get("uid"), new IGetResults<ShopDTO>() {
+            GetDataUserJob job = new GetDataUserJob(1,mContext, ops.get("uid"), new IGetResults<ShopDTO>() {
                 @Override
                 public void onSuccess(ShopDTO object) {
                     listener.onSuccess(object);

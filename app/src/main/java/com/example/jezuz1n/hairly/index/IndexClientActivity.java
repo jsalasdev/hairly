@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.client_profile_edit.ClientEditProfileFragment;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.session.SessionManager;
@@ -48,7 +49,7 @@ public class IndexClientActivity extends AppCompatActivity {
         sessionManager = new SessionManager(getApplicationContext());
 
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_navview, null);
-
+        initToolbar();
         ((TextView) nav_header.findViewById(R.id.usuario)).setText(sessionManager.getUserDetails().get("email"));
         navigationView.addHeaderView(nav_header);
 
@@ -70,6 +71,8 @@ public class IndexClientActivity extends AppCompatActivity {
                         fragmentTransition = true;
                         break;
                     case R.id.menu_perfil:
+                        frag= new ClientEditProfileFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.logout_user:
                         SessionManager sessionManager = new SessionManager(getApplicationContext());
@@ -91,8 +94,6 @@ public class IndexClientActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-        initToolbar();
     }
 
     public void initToolbar(){
