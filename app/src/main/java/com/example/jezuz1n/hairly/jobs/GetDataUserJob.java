@@ -2,7 +2,9 @@ package com.example.jezuz1n.hairly.jobs;
 
 import android.content.Context;
 
+import com.example.jezuz1n.hairly.models.dto.ClientDTO;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
+import com.example.jezuz1n.hairly.models.dto.UserDTO;
 import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -15,17 +17,19 @@ import com.path.android.jobqueue.Params;
  * Created by jezuz1n on 25/05/2017.
  */
 
-public class GetDataUserJob extends Job {
+public class GetDataUserJob<T> extends Job {
 
     Context mContext;
     String uid;
-    IGetResults<ShopDTO> listener;
+    IGetResults<T> listener;
+    int type;
 
-    public GetDataUserJob(Context c, String uid, IGetResults<ShopDTO> listener) {
+    public GetDataUserJob(int type,Context c, String uid, IGetResults<T> listener) {
         super(new Params(1).requireNetwork().persist());
         this.mContext = c;
         this.uid = uid;
         this.listener = listener;
+        this.type = type;
     }
 
     @Override
@@ -35,13 +39,25 @@ public class GetDataUserJob extends Job {
 
     @Override
     public void onRun() throws Throwable {
+        String cad;
 
-        FirebaseDatabase.getInstance().getReference().child("shops").child(uid)
+        if(type==1){
+            cad="shops";
+        }else{
+            cad="clients";
+        }
+
+        FirebaseDatabase.getInstance().getReference().child(cad).child(uid)
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        ShopDTO user = dataSnapshot.getValue(ShopDTO.class);
-                        listener.onSuccess(user);
+                        UserDTO user;
+                        if(type==1){
+                            user = dataSnapshot.getValue(ShopDTO.class);
+                        }else{
+                            user = dataSnapshot.getValue(ClientDTO.class);
+                        }
+                        listener.onSuccess((T) user);
                     }
 
                     @Override

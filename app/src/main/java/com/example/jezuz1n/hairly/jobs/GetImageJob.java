@@ -45,7 +45,7 @@ public class GetImageJob extends Job {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception exception) {
-                listener.onSuccess(null);
+                listener.onFailure(null);
             }
         });
     }
