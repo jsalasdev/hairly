@@ -1,37 +1,21 @@
-package com.example.jezuz1n.hairly.shop_profile;
+package com.example.jezuz1n.hairly.client_profile;
 
-import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
-import android.app.TimePickerDialog;
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.CardView;
-import android.util.Log;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CalendarView;
-import android.widget.DatePicker;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.example.jezuz1n.hairly.R;
-import com.example.jezuz1n.hairly.models.dto.CitaDTO;
-import com.example.jezuz1n.hairly.models.dto.ShopDTO;
-import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.models.dto.ClientDTO;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
-
-import java.util.Calendar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -40,91 +24,55 @@ import butterknife.ButterKnife;
  * Created by jezuz1n on 24/05/2017.
  */
 
-public class ShopProfileFragment extends Fragment implements ShopProfileView, View.OnClickListener {
+public class ClientProfileFragment extends Fragment implements ClientProfileView {
 
-    @BindView(R.id.layout_profile)
+    @BindView(R.id.layout_profile_client)
     LinearLayout mLinearLayout;
 
-    @BindView(R.id.sdvProfileFragment)
+    @BindView(R.id.sdvProfileFragmentClient)
     SimpleDraweeView sdvProfile;
 
-    @BindView(R.id.tv_nick_shop_profile)
+    @BindView(R.id.tv_nick_client_profile)
     TextView tvNick;
 
-    @BindView(R.id.tv_description_shop_profile)
-    TextView tvDescription;
-
-    @BindView(R.id.tv_email_shop_profile)
+    @BindView(R.id.tv_email_client_profile)
     TextView tvEmail;
 
-    @BindView(R.id.tv_province_shop_profile)
-    TextView tvProvince;
-
-    @BindView(R.id.tv_address_shop_profile)
-    TextView tvAddress;
-
-    @BindView(R.id.tv_phone_shop_profile)
+    @BindView(R.id.tv_phone_client_profile)
     TextView tvPhone;
 
     ProgressDialog progressDialog;
 
-    ShopProfilePresenter presenter;
+    ClientProfilePresenter presenter;
 
-    ShopDTO mShop;
+    ClientDTO mClient;
 
-    public ShopProfileFragment() {
+    public ClientProfileFragment() {
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Fresco.initialize(getContext());
-        View view = inflater.inflate(R.layout.fragment_shop_profile, container, false);
+        View view = inflater.inflate(R.layout.fragment_client_profile, container, false);
         ButterKnife.bind(this, view);
-        presenter = new ShopProfilePresenterImpl(this);
+        presenter = new ClientProfilePresenterImpl(this);
 
         Bundle b = getArguments();
 
-        if(b!=null){
+        if (b != null) {
             presenter.loadData(b.getString("uid"));
-        }else{
+        } else {
             presenter.loadData();
-        }
-
-        if(new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("client")){
-            insertBtn();
         }
 
         return view;
     }
 
-    public static ShopProfileFragment newInstance(Bundle b) {
-        ShopProfileFragment fragment = new ShopProfileFragment();
+    public static ClientProfileFragment newInstance(Bundle b) {
+        ClientProfileFragment fragment = new ClientProfileFragment();
         fragment.setArguments(b);
         return fragment;
-    }
-
-    public void insertBtn() {
-
-        CardView card = new CardView(getContext());
-
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-        );
-        params.setMargins(10, 10, 10, 10);
-        card.setContentPadding(25, 25, 25, 25);
-        card.setCardBackgroundColor(getActivity().getResources().getColor(R.color.colorPrimaryLight));
-        card.setMaxCardElevation(15);
-
-        AppCompatButton button = new AppCompatButton(getContext());
-        button.setLayoutParams(params);
-        button.setText("Pedir Cita");
-        button.setBackgroundColor(getActivity().getResources().getColor(R.color.colorPrimaryDark));
-        button.setOnClickListener(this);
-
-        card.addView(button);
-        mLinearLayout.addView(card);
     }
 
     @Override
@@ -148,42 +96,31 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
     }
 
     @Override
-    public void setData(ShopDTO shop) {
-        mShop = shop;
+    public void setData(ClientDTO client) {
+        mClient = client;
 
-        if(shop.getPhotoURL()!=null){
-            sdvProfile.setImageURI(shop.getPhotoURL());
+        if (client.getNick() != null) {
+            tvNick.setText(client.getNick());
         }
 
-        if(shop.getNick()!=null){
-            tvNick.setText(shop.getNick());
+        if (client.getPhone() != null) {
+            tvPhone.setText(client.getPhone());
         }
 
-        if(shop.getProvince()!=null){
-            tvProvince.setText(shop.getProvince());
+        if (client.getEmail() != null) {
+            tvEmail.setText(client.getEmail());
         }
 
-        if(shop.getAddress()!=null){
-            tvAddress.setText(shop.getAddress());
+        if (client.getPhotoURL() != null) {
+            sdvProfile.setImageURI(client.getPhotoURL());
         }
 
-        if(shop.getPhone()!=null){
-            tvPhone.setText(shop.getPhone());
-        }
-
-        if(shop.getEmail()!=null){
-            tvEmail.setText(shop.getEmail());
-        }
-
-        if(shop.getDescription()!=null){
-            tvDescription.setText(shop.getDescription());
-        }
         hideProgressBar();
     }
 
     @Override
     public void showMsg(String msg) {
-        Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), msg, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -191,48 +128,5 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
         return getContext();
     }
 
-    @Override
-    public void onClick(View view) {
-        final int mYear, mMonth, mDay;
 
-        final Calendar c = Calendar.getInstance();
-        mYear = c.get(Calendar.YEAR);
-        mMonth = c.get(Calendar.MONTH) + 1;
-        mDay = c.get(Calendar.DAY_OF_MONTH);
-
-
-        DatePickerDialog datePickerDialog = new DatePickerDialog(getContext(), R.style.datepicker,
-                new DatePickerDialog.OnDateSetListener() {
-                    @Override
-                    public void onDateSet(DatePicker view, final int year,
-                                          final int monthOfYear, final int dayOfMonth) {
-
-                        final int mHour, mMinute;
-
-                        final Calendar c = Calendar.getInstance();
-                        mHour = c.get(Calendar.HOUR_OF_DAY);
-                        mMinute = c.get(Calendar.MINUTE);
-
-                        // Launch Time Picker Dialog
-                        TimePickerDialog timePickerDialog = new TimePickerDialog(getContext(), R.style.datepicker,
-                                new TimePickerDialog.OnTimeSetListener() {
-
-                                    @Override
-                                    public void onTimeSet(TimePicker view, int hourOfDay,
-                                                          int minute) {
-                                        Log.i("hora", String.valueOf(hourOfDay));
-
-                                        CitaDTO cita = new CitaDTO(dayOfMonth, monthOfYear, year, hourOfDay, minute);
-
-                                        //enviar objeto al presenter
-                                        presenter.setCita(cita);
-
-                                    }
-                                }, mHour, mMinute, false);
-                        timePickerDialog.setTitle("Fecha: " + String.valueOf(dayOfMonth) + " - " + String.valueOf(monthOfYear) + " - " + String.valueOf(year));
-                        timePickerDialog.show();
-                    }
-                }, mYear, mMonth, mDay);
-        datePickerDialog.show();
-    }
 }

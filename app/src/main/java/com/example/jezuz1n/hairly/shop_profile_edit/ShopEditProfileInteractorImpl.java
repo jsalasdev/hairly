@@ -17,7 +17,7 @@ import java.util.HashMap;
  * Created by jezuz1n on 15/05/2017.
  */
 
-public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor, IGetResults<ShopDTO> {
+public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor {
 
     DatabaseReference mDatabase;
     Context mContext;
@@ -30,7 +30,7 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor,
     public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
         try {
-            GetDataUserJob job = new GetDataUserJob(1,mContext, ops.get("uid"), new IGetResults<ShopDTO>() {
+            GetDataUserJob job = new GetDataUserJob(mContext, ops.get("uid"), new IGetResults<ShopDTO>() {
                 @Override
                 public void onSuccess(ShopDTO object) {
                     listener.onSuccess(object);
@@ -77,15 +77,5 @@ public class ShopEditProfileInteractorImpl implements ShopEditProfileInteractor,
         } catch (Exception e) {
             result.onFailure("Error al actualizar usuario");
         }
-    }
-
-    @Override
-    public void onSuccess(ShopDTO object) {
-
-    }
-
-    @Override
-    public void onFailure(ShopDTO object) {
-
     }
 }

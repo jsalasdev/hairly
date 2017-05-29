@@ -1,8 +1,9 @@
-package com.example.jezuz1n.hairly.shop_profile;
+package com.example.jezuz1n.hairly.client_profile;
 
 import android.content.Context;
 
 import com.example.jezuz1n.hairly.models.dto.CitaDTO;
+import com.example.jezuz1n.hairly.models.dto.ClientDTO;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.google.firebase.database.DataSnapshot;
@@ -17,24 +18,24 @@ import java.util.HashMap;
  * Created by jezuz1n on 24/05/2017.
  */
 
-public class ShopProfileInteractorImpl implements ShopProfileInteractor {
+public class ClientProfileInteractorImpl implements ClientProfileInteractor {
 
 
     DatabaseReference mDatabase;
     Context mContext;
 
-    public ShopProfileInteractorImpl(Context context) {
+    public ClientProfileInteractorImpl(Context context) {
         this.mContext = context;
     }
 
     @Override
-    public void getData(final ShopProfileInteractor.OnChargeDataFinishedListener listener) {
+    public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
-        FirebaseDatabase.getInstance().getReference().child("shops").child(ops.get("uid"))
+        FirebaseDatabase.getInstance().getReference().child("clients").child(ops.get("uid"))
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        ShopDTO user = dataSnapshot.getValue(ShopDTO.class);
+                        ClientDTO user = dataSnapshot.getValue(ClientDTO.class);
                         listener.onSuccess(user);
                     }
 
@@ -47,11 +48,11 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
 
     @Override
     public void getData(String uid,final OnChargeDataFinishedListener listener) {
-        FirebaseDatabase.getInstance().getReference().child("shops").child(uid)
+        FirebaseDatabase.getInstance().getReference().child("clients").child(uid)
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        ShopDTO user = dataSnapshot.getValue(ShopDTO.class);
+                        ClientDTO user = dataSnapshot.getValue(ClientDTO.class);
                         listener.onSuccess(user);
                     }
 
@@ -62,18 +63,4 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
                 });
     }
 
-    @Override
-    public void uploadCita(CitaDTO cita, OnUploadCitaFinishedListener listener) {
-        try {
-            mDatabase = FirebaseDatabase.getInstance().getReference();
-            if (cita != null) {
-                mDatabase.child("citas").setValue(cita);
-                listener.onSuccess("Su cita fue enviada correctamente.");
-            } else {
-                listener.onFailure();
-            }
-        } catch (Exception e) {
-            listener.onFailure();
-        }
-    }
 }

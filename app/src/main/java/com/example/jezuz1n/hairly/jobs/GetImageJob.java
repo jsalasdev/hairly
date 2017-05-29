@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 
+import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -36,8 +37,14 @@ public class GetImageJob extends Job {
 
     @Override
     public void onRun() throws Throwable {
+        String cad;
+        if (new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("shops")) {
+            cad = "shops";
+        } else {
+            cad = "clients";
+        }
         StorageReference storage = FirebaseStorage.getInstance().getReference();
-        storage.child("shops").child("profiles").child(uid+".png").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+        storage.child(cad).child("profiles").child(uid+".png").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override
             public void onSuccess(Uri uri) {
                 listener.onSuccess(uri);

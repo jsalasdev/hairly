@@ -18,7 +18,7 @@ import java.util.HashMap;
  * Created by jezuz1n on 15/05/2017.
  */
 
-public class ClientEditProfileInteractorImpl<T> implements ClientEditProfileInteractor, IGetResults<T>{
+public class ClientEditProfileInteractorImpl<T> implements ClientEditProfileInteractor{
 
     DatabaseReference mDatabase;
     Context mContext;
@@ -31,7 +31,7 @@ public class ClientEditProfileInteractorImpl<T> implements ClientEditProfileInte
     public void getData(final OnChargeDataFinishedListener listener) {
         HashMap<String, String> ops = new SessionManager(mContext).getUserDetails();
         try {
-            GetDataUserJob job = new GetDataUserJob(2, mContext, ops.get("uid"), new IGetResults<T>() {
+            GetDataUserJob job = new GetDataUserJob(mContext, ops.get("uid"), new IGetResults<T>() {
                 @Override
                 public void onSuccess(T object) {
                     listener.onSuccess((ClientDTO)object);
@@ -66,16 +66,13 @@ public class ClientEditProfileInteractorImpl<T> implements ClientEditProfileInte
     }
 
     public void insertDatabase(ClientDTO user, IGetResults result) {
-
+        try {
+            mDatabase = FirebaseDatabase.getInstance().getReference();
+            mDatabase.child("clients").child(user.getUid()).setValue(user);
+            result.onSuccess("Usuario actualizado");
+        } catch (Exception e) {
+            result.onFailure("Error al actualizar usuario");
+        }
     }
 
-    @Override
-    public void onSuccess(T object) {
-
-    }
-
-    @Override
-    public void onFailure(T object) {
-
-    }
 }

@@ -44,8 +44,15 @@ public class PostImageShopJob extends Job {
     @Override
     public void onRun() throws Throwable {
         String uid = new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_UID);
+        String cad;
+
+        if (new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("shops")) {
+            cad = "shops";
+        } else {
+            cad = "clients";
+        }
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child("shops").child("profiles").child(uid + ".png");
+        StorageReference pathReference = storage.getReferenceFromUrl("gs://hairly-99fc1.appspot.com").child(cad).child("profiles").child(uid + ".png");
 
         Uri imageUri = uri;
         Bitmap b = MediaStore.Images.Media.getBitmap(mContext.getContentResolver(),imageUri);
@@ -62,7 +69,7 @@ public class PostImageShopJob extends Job {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Log.i("dasda","dasdas");
+                Log.i("ERROR","error al subir la imagen");
             }
         });
     }

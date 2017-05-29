@@ -17,6 +17,10 @@
             android:id="@+id/menu_mapa"
             android:icon="@drawable/ic_map"
             android:title="@string/mapa_centros"/>
+        <item
+            android:id="@+id/menu_perfil"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/perfil"/>
     </group>
     <item
         android:id="@+id/navigation_subheader"
@@ -24,9 +28,9 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/menu_perfil"
-                    android:icon="@drawable/ic_profile"
-                    android:title="@string/perfil"/>
+                    android:id="@+id/menu_perfil_edit"
+                    android:icon="@drawable/ic_edit_profile"
+                    android:title="@string/editar_perfil"/>
                 <item
                     android:id="@+id/logout_user"
                     android:icon="@drawable/ic_logout_user"

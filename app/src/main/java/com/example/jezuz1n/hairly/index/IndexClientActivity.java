@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.client_profile.ClientProfileFragment;
 import com.example.jezuz1n.hairly.client_profile_edit.ClientEditProfileFragment;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
@@ -50,6 +51,14 @@ public class IndexClientActivity extends AppCompatActivity {
 
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_navview, null);
         initToolbar();
+
+        if(Boolean.parseBoolean(sessionManager.getUserDetails().get("firstConnection"))){
+            frag = new ClientEditProfileFragment();
+            sessionManager.updateFirstConnection();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+            getSupportActionBar().setTitle("Editar Perfil");
+        }
+
         ((TextView) nav_header.findViewById(R.id.usuario)).setText(sessionManager.getUserDetails().get("email"));
         navigationView.addHeaderView(nav_header);
 
@@ -71,6 +80,10 @@ public class IndexClientActivity extends AppCompatActivity {
                         fragmentTransition = true;
                         break;
                     case R.id.menu_perfil:
+                        frag = new ClientProfileFragment();
+                        fragmentTransition = true;
+                        break;
+                    case R.id.menu_perfil_edit:
                         frag= new ClientEditProfileFragment();
                         fragmentTransition = true;
                         break;

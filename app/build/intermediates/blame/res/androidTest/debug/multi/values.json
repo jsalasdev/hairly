@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jsalas/APLICACIONES ANDROID/hairlyproject/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/jsalas/.android/build-cache/5b35e163d62765f0e921021da6ac4a94f97267a6/output/res/values/values.xml",
+                    "file": "C:\\Users\\jezuz1n\\.android\\build-cache\\c5430b29d07513595abe160013558b6ea611dbc9\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

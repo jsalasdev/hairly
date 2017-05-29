@@ -64,9 +64,6 @@
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.jezuz1n.hairly.index.IndexClientActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.example.jezuz1n.hairly.splash.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -80,6 +77,7 @@
             android:name="com.example.jezuz1n.hairly.register.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.example.jezuz1n.hairly.index.IndexShopActivity" />
+        <activity android:name="com.example.jezuz1n.hairly.index.IndexClientActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

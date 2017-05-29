@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -124,7 +125,7 @@ public class ClientEditProfileFragment extends Fragment implements ClientEditPro
 
     @Override
     public void showMsg(String msg) {
-        Toast.makeText(getContext(),msg,Toast.LENGTH_LONG);
+        Toast.makeText(getContext(),msg,Toast.LENGTH_LONG).show();
     }
 
     @Optional
@@ -162,7 +163,7 @@ public class ClientEditProfileFragment extends Fragment implements ClientEditPro
 
                     @Override
                     public void onFailure(Uri object) {
-
+                        Log.i("ERROR"," al subir la img");
                     }
                 });
 
