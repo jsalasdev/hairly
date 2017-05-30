@@ -35,4 +35,5 @@
     <string name="address">Calle y C.P</string>
     <string name="save">Listo</string>
     <string name="editar_perfil">Editar Perfil</string>
+    <string name="no_tiene_ninguna_cita_a_n">No tiene ninguna cita aún</string>
 </resources>

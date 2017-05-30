@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
+import com.example.jezuz1n.hairly.dating_management.DatingManagementFragment;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.session.SessionManager;
@@ -71,6 +72,8 @@ public class IndexShopActivity extends AppCompatActivity {
                     case R.id.menu_inicio:
                         break;
                     case R.id.menu_gestion_citas:
+                        frag = new DatingManagementFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.menu_historial_citas:
                         break;

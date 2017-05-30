@@ -67,7 +67,8 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
         try {
             mDatabase = FirebaseDatabase.getInstance().getReference();
             if (cita != null) {
-                mDatabase.child("citas").setValue(cita);
+                mDatabase.child("shops").child(cita.getUIDshop()).child("citas").setValue(cita);
+                mDatabase.child("clients").child(cita.getUIDclient()).child("citas").setValue(cita);
                 listener.onSuccess("Su cita fue enviada correctamente.");
             } else {
                 listener.onFailure();

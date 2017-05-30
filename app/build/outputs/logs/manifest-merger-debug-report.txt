@@ -165,6 +165,7 @@ ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\And
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:13-54
 uses-sdk
 INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6] C:\Users\jezuz1n\.android\build-cache\a4b9a387aefb33993836891b9d61e64434511fdf\output\AndroidManifest.xml:23:5-25:41
 MERGED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.3.0] C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\AndroidManifest.xml:21:5-23:78

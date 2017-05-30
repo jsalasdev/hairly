@@ -1,23 +1,29 @@
 package com.example.jezuz1n.hairly.models.dto;
 
+import android.net.Uri;
+
+import java.sql.Timestamp;
+
 /**
  * Created by jezuz1n on 24/05/2017.
  */
 
 public class CitaDTO {
 
-    public static final int TYPE_ACTIVE = 1;
-    public static final int TYPE_NOT_ACTIVE = 2;
-    public static final int TYPE_CANCELED = 3;
+    public static final String TYPE_ACTIVE = "aceptada";
+    public static final String TYPE_NOT_ACTIVE = "en curso";
+    public static final String TYPE_CANCELED = "cancelada";
 
-    private int day, month, year, hour, minute;
+    private long day, month, year, hour, minute;
     private String UIDclient, UIDshop;
-    private int state;
+    private String state;
+    private long timeStamp;
+    public boolean pinned;
 
     public CitaDTO() {
     }
 
-    public CitaDTO(int day, int month, int year, int hour, int minute, String UIDclient, String UIDshop, int state) {
+    public CitaDTO(long day, long month, long year, long hour, long minute, String UIDclient, String UIDshop, String state) {
         this.day = day;
         this.month = month;
         this.year = year;
@@ -28,7 +34,7 @@ public class CitaDTO {
         this.state = state;
     }
 
-    public CitaDTO(int day, int month, int year, int hour, int minute) {
+    public CitaDTO(long day, long month, long year, long hour, long minute) {
         this.day = day;
         this.month = month;
         this.year = year;
@@ -36,7 +42,30 @@ public class CitaDTO {
         this.minute = minute;
     }
 
-    public int getDay() {
+    public CitaDTO(long day, long month, long year, long hour, long minute, String UIDclient, String UIDshop, String timeStamp, String state) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+        this.hour = hour;
+        this.minute = minute;
+        this.UIDclient = UIDclient;
+        this.UIDshop = UIDshop;
+        this.state = state;
+    }
+
+    public String generateTimeStamp(){
+        return String.valueOf(this.year+this.month+this.day+this.hour+this.minute);
+    }
+
+    public long getTimeStamp() {
+        return timeStamp;
+    }
+
+    public void setTimeStamp(long timeStamp) {
+        this.timeStamp = timeStamp;
+    }
+
+    public long getDay() {
         return day;
     }
 
@@ -56,47 +85,47 @@ public class CitaDTO {
         this.UIDshop = UIDshop;
     }
 
-    public int getState() {
+    public String getState() {
         return state;
     }
 
-    public void setState(int state) {
+    public void setState(String state) {
         this.state = state;
     }
 
-    public void setDay(int day) {
+    public void setDay(long day) {
         this.day = day;
     }
 
-    public int getMonth() {
+    public long getMonth() {
         return month;
     }
 
-    public void setMonth(int month) {
+    public void setMonth(long month) {
         this.month = month;
     }
 
-    public int getYear() {
+    public long getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(long year) {
         this.year = year;
     }
 
-    public int getHour() {
+    public long getHour() {
         return hour;
     }
 
-    public void setHour(int hour) {
+    public void setHour(long hour) {
         this.hour = hour;
     }
 
-    public int getMinute() {
+    public long getMinute() {
         return minute;
     }
 
-    public void setMinute(int minute) {
+    public void setMinute(long minute) {
         this.minute = minute;
     }
 }

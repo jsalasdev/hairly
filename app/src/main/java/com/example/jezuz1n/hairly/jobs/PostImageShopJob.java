@@ -46,7 +46,7 @@ public class PostImageShopJob extends Job {
         String uid = new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_UID);
         String cad;
 
-        if (new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("shops")) {
+        if (new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("shop")) {
             cad = "shops";
         } else {
             cad = "clients";

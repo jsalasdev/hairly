@@ -38,7 +38,7 @@ public class GetImageJob extends Job {
     @Override
     public void onRun() throws Throwable {
         String cad;
-        if (new SessionManager(mContext).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("shops")) {
+        if (uid.equalsIgnoreCase("shop")) {
             cad = "shops";
         } else {
             cad = "clients";

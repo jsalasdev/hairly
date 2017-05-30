@@ -31,6 +31,7 @@ import com.example.jezuz1n.hairly.session.SessionManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
 
+import java.sql.Timestamp;
 import java.util.Calendar;
 
 import butterknife.BindView;
@@ -85,13 +86,13 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
         Bundle b = getArguments();
 
-        if(b!=null){
+        if (b != null) {
             presenter.loadData(b.getString("uid"));
-        }else{
+        } else {
             presenter.loadData();
         }
 
-        if(new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("client")){
+        if (new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_TYPE).equalsIgnoreCase("client")) {
             insertBtn();
         }
 
@@ -151,31 +152,31 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
     public void setData(ShopDTO shop) {
         mShop = shop;
 
-        if(shop.getPhotoURL()!=null){
+        if (shop.getPhotoURL() != null) {
             sdvProfile.setImageURI(shop.getPhotoURL());
         }
 
-        if(shop.getNick()!=null){
+        if (shop.getNick() != null) {
             tvNick.setText(shop.getNick());
         }
 
-        if(shop.getProvince()!=null){
+        if (shop.getProvince() != null) {
             tvProvince.setText(shop.getProvince());
         }
 
-        if(shop.getAddress()!=null){
+        if (shop.getAddress() != null) {
             tvAddress.setText(shop.getAddress());
         }
 
-        if(shop.getPhone()!=null){
+        if (shop.getPhone() != null) {
             tvPhone.setText(shop.getPhone());
         }
 
-        if(shop.getEmail()!=null){
+        if (shop.getEmail() != null) {
             tvEmail.setText(shop.getEmail());
         }
 
-        if(shop.getDescription()!=null){
+        if (shop.getDescription() != null) {
             tvDescription.setText(shop.getDescription());
         }
         hideProgressBar();
@@ -220,10 +221,14 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
                                     @Override
                                     public void onTimeSet(TimePicker view, int hourOfDay,
                                                           int minute) {
-                                        Log.i("hora", String.valueOf(hourOfDay));
+                                       String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
+
+                                        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
                                         CitaDTO cita = new CitaDTO(dayOfMonth, monthOfYear, year, hourOfDay, minute);
-
+                                        cita.setUIDclient(uid);
+                                        cita.setUIDshop(mShop.getUid());
+                                        cita.setTimeStamp(timestamp.getTime());
                                         //enviar objeto al presenter
                                         presenter.setCita(cita);
 
