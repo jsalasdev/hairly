@@ -19,14 +19,16 @@ import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.client_profile.ClientProfileFragment;
 import com.example.jezuz1n.hairly.client_profile_edit.ClientEditProfileFragment;
 import com.example.jezuz1n.hairly.login.LoginActivity;
+import com.example.jezuz1n.hairly.maps.EventClickMap;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
+import com.example.jezuz1n.hairly.models.dto.ShopMapVO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class IndexClientActivity extends AppCompatActivity {
+public class IndexClientActivity extends AppCompatActivity implements EventClickMap{
 
     @BindView(R.id.drawer_layout)
     DrawerLayout drawerLayout;
@@ -129,5 +131,10 @@ public class IndexClientActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void OnClickItem(ShopMapVO shop) {
+
     }
 }

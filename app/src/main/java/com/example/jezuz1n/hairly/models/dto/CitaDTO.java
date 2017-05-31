@@ -10,9 +10,9 @@ import java.sql.Timestamp;
 
 public class CitaDTO {
 
-    public static final String TYPE_ACTIVE = "aceptada";
-    public static final String TYPE_NOT_ACTIVE = "en curso";
-    public static final String TYPE_CANCELED = "cancelada";
+    public static final String TYPE_ACTIVE = "confirmed";
+    public static final String TYPE_NOT_ACTIVE = "running";
+    public static final String TYPE_CANCELED = "deleted";
 
     private long day, month, year, hour, minute;
     private String UIDclient, UIDshop;
