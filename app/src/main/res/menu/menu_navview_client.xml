@@ -6,10 +6,6 @@
             android:icon="@drawable/ic_inicio"
             android:title="@string/inicio"/>
         <item
-            android:id="@+id/menu_centros"
-            android:icon="@drawable/ic_action_search"
-            android:title="@string/centros"/>
-        <item
             android:id="@+id/menu_citas"
             android:icon="@drawable/ic_citas"
             android:title="@string/citas"/>

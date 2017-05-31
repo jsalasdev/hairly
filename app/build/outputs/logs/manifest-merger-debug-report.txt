@@ -1,343 +1,343 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#com.truiton.supportmapfragment.permission.MAPS_RECEIVE
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:7:5-94
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:7:5-94
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:7:22-91
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:7:22-91
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\AndroidManifest.xml:20:5-66
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jezuz1n\.android\build-cache\80ac9b8d337c3897a9b1ff877604742f33a98980\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\AndroidManifest.xml:19:5-78
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jezuz1n\.android\build-cache\80ac9b8d337c3897a9b1ff877604742f33a98980\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:5-98
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:5-98
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:22-95
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:22-95
 permission#com.truiton.supportmapfragment.permission.MAPS_RECEIVE
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:13:5-15:47
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:13:5-15:47
 	android:protectionLevel
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:14:9-78
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:14:9-78
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:5-71
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:5-71
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:22-68
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:5-71
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:5-71
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:22-68
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:5-72
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:5-72
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:22-69
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:22-69
 application
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:22:5-60:19
-MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:26:5-20
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jesus.salas\.android\build-cache\19470227f9df054d02154049e84df0a0d5d43869\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jesus.salas\.android\build-cache\665c2d0507ccd745401129ba40439f4a48575bd7\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-auth:9.6.1] C:\Users\jesus.salas\.android\build-cache\73f6017ee3020573138f027d7038464c4bd5788a\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\10931fd4d511d39b217f7c4ae44baa353c705b44\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jesus.salas\.android\build-cache\299857e1d5757cb3ab5d8d1fc2e901dc7f991353\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jesus.salas\.android\build-cache\55f05a0a1b81b4befd17e5cd6645ae1866a225a2\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:22:5-60:19
+MERGED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\0da45d95d394f7b6cef43aab51d8f719ec86fd77\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\2c191a0bf7e0580c5b876228754f5b744bcef76d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\cc8a04ec3da35184535dc8f9b0c9cb72863156a0\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jezuz1n\.android\build-cache\de2d5f25bdb0928aaa99068132e5aaa3555fdaa0\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jezuz1n\.android\build-cache\4770fa9782c791075f1dd48cc61524add028583e\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-auth:9.6.1] C:\Users\jezuz1n\.android\build-cache\5746f7c39822c5a063c75389bede31f3352d96e3\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\78c2dd36bcf4a734fa7d2d39d057236d096ee12e\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jezuz1n\.android\build-cache\80ac9b8d337c3897a9b1ff877604742f33a98980\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jezuz1n\.android\build-cache\e8b805b534380b06d1cc34ff8e2210af6d8a5e7b\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jezuz1n\.android\build-cache\afabd2079d35971a023ee4df3e3b40ec00fc87b3\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jezuz1n\.android\build-cache\8e84d6ec468d9effa02ca666ac88c657616bcfd6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jezuz1n\.android\build-cache\09f2dd03ce842c8e9a5a6d49baba0dcf1b08cceb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\9876e472fedd8a68cea1cd062ec5195dd91075f3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jezuz1n\.android\build-cache\24bc01c97d67aeb67e2bb74420033bdd91172b3f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jezuz1n\.android\build-cache\b1b5662e1e42d20fc1ec59551634b5770c6e2b56\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\93ffccf3bce097f31b8bfe6a7ed75eb47d338020\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jezuz1n\.android\build-cache\957b6c291ef2cb93f126706157122c60a9bdde77\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:25:9-41
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:25:9-41
 	android:supportsRtl
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:26:9-35
 	android:allowBackup
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:23:9-35
 	android:icon
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:24:9-43
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:24:9-43
 	android:theme
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:27:9-40
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:28:9-30:69
-MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\AndroidManifest.xml:20:9-121
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:28:9-30:69
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jezuz1n\.android\build-cache\afabd2079d35971a023ee4df3e3b40ec00fc87b3\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:30:13-66
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:30:13-66
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:29:13-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:29:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:31:9-33:47
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:31:9-33:47
 	android:value
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:33:13-44
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:32:13-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:32:13-58
 uses-feature#0x00020000
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:35:9-37:39
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:35:9-37:39
 	android:glEsVersion
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:36:13-45
 	android:required
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:37:13-36
 activity#com.example.jezuz1n.hairly.login.LoginActivity
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:39:9-42:52
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:39:9-42:52
 	android:screenOrientation
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:42:13-49
 	android:label
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:41:13-57
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:41:13-57
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:40:13-48
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:40:13-48
 activity#com.example.jezuz1n.hairly.splash.SplashActivity
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:44:9-53:20
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:44:9-53:20
 	android:screenOrientation
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:47:13-49
 	android:label
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:46:13-45
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:45:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:17-69
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:17-77
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:27-74
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:27-74
 activity#com.example.jezuz1n.hairly.register.RegisterActivity
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:54:9-56:52
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:54:9-56:52
 	android:screenOrientation
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:56:13-49
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:55:13-54
 activity#com.example.jezuz1n.hairly.index.IndexShopActivity
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:9-70
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:9-70
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:19-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:19-58
 activity#com.example.jezuz1n.hairly.index.IndexClientActivity
-ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:58:9-59:56
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:58:9-59:56
 	android:name
-		ADDED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:13-54
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:13-54
 uses-sdk
-INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6] C:\Users\jesus.salas\.android\build-cache\41c067c2a56377e13fdfca6392c6c06a4592e86e\output\AndroidManifest.xml:23:5-25:41
-MERGED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:20:5-43
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jesus.salas\.android\build-cache\19470227f9df054d02154049e84df0a0d5d43869\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jesus.salas\.android\build-cache\665c2d0507ccd745401129ba40439f4a48575bd7\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:9.6.1] C:\Users\jesus.salas\.android\build-cache\240fe7cbf43ce898f6b005359d8fde32ed909c28\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\b6bd4ce560d877b8102080bc2b2ae4efbc073462\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database:9.6.1] C:\Users\jesus.salas\.android\build-cache\e1b080fe048fdd139f4eae398ca02b0f461bfa19\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.6.1] C:\Users\jesus.salas\.android\build-cache\be14b606e41feb1ba4956916ebecc36f26ef3d3a\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-auth:9.6.1] C:\Users\jesus.salas\.android\build-cache\73f6017ee3020573138f027d7038464c4bd5788a\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\10931fd4d511d39b217f7c4ae44baa353c705b44\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-module:9.6.1] C:\Users\jesus.salas\.android\build-cache\5edfa76afa601732e601c58e8af0381ef3f05397\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:3:5-42
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jesus.salas\.android\build-cache\9291d8f3a5c99dbe228e11ceea20ff30de153c53\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ac59d87e14e7c7128a281a508fc99e726baaa6e0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jesus.salas\.android\build-cache\28a981cac57a06d73aba8738c090d934b4cdf5ab\output\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jesus.salas\.android\build-cache\299857e1d5757cb3ab5d8d1fc2e901dc7f991353\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jesus.salas\.android\build-cache\76e84557c2cae64e7bff4e48aec7c44b58c61d84\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\jesus.salas\.android\build-cache\1a4afada00d78d975a08a2cdc8c893414e4a984a\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\jesus.salas\.android\build-cache\6068909241fe77ef2e52463636513d8aa660cf74\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\jesus.salas\.android\build-cache\d0d97780662e3316f41be71827feef211184fcc4\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\jesus.salas\.android\build-cache\1c3e656b193f2934d6ba6611ef7ea341909ef9f8\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\jesus.salas\.android\build-cache\9646f7805db01c575bc14704a9745afef5c5ca3d\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jesus.salas\.android\build-cache\55f05a0a1b81b4befd17e5cd6645ae1866a225a2\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6] C:\Users\jezuz1n\.android\build-cache\a4b9a387aefb33993836891b9d61e64434511fdf\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\0da45d95d394f7b6cef43aab51d8f719ec86fd77\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\2c191a0bf7e0580c5b876228754f5b744bcef76d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\cc8a04ec3da35184535dc8f9b0c9cb72863156a0\output\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jezuz1n\.android\build-cache\de2d5f25bdb0928aaa99068132e5aaa3555fdaa0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\jezuz1n\.android\build-cache\4770fa9782c791075f1dd48cc61524add028583e\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.6.1] C:\Users\jezuz1n\.android\build-cache\de88981a759d865f9ea7d13fab218506f32c7724\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\5329e57fb6814a5c4abb3e163a71e86c643f888a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.6.1] C:\Users\jezuz1n\.android\build-cache\1f43dc489efed48b6ddb0acbceae10cee0835ce1\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.6.1] C:\Users\jezuz1n\.android\build-cache\276bda85ce532b5c78b58c5fecd843d0e0694000\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth:9.6.1] C:\Users\jezuz1n\.android\build-cache\5746f7c39822c5a063c75389bede31f3352d96e3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\78c2dd36bcf4a734fa7d2d39d057236d096ee12e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.6.1] C:\Users\jezuz1n\.android\build-cache\d3f3f0cde6af2ec2de770156a9dc2943a5a709c6\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:3:5-42
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jezuz1n\.android\build-cache\62c79cc57b8eae444fc4245d6690ff33fa42dbac\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\972ac3bb5cec734aef9876682694ed0ea1c0214e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\jezuz1n\.android\build-cache\80ac9b8d337c3897a9b1ff877604742f33a98980\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\jezuz1n\.android\build-cache\e8b805b534380b06d1cc34ff8e2210af6d8a5e7b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jezuz1n\.android\build-cache\afabd2079d35971a023ee4df3e3b40ec00fc87b3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jezuz1n\.android\build-cache\8e84d6ec468d9effa02ca666ac88c657616bcfd6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jezuz1n\.android\build-cache\09f2dd03ce842c8e9a5a6d49baba0dcf1b08cceb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\9876e472fedd8a68cea1cd062ec5195dd91075f3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jezuz1n\.android\build-cache\24bc01c97d67aeb67e2bb74420033bdd91172b3f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jezuz1n\.android\build-cache\b1b5662e1e42d20fc1ec59551634b5770c6e2b56\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\93ffccf3bce097f31b8bfe6a7ed75eb47d338020\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\jezuz1n\.android\build-cache\2a03e983e9b7cb86400b83c9d196adea44bb91f8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\jezuz1n\.android\build-cache\fde383b8af4d5c68a57593d0af191b72049dc13c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\jezuz1n\.android\build-cache\fdc4b789cb87c14c2deae42e326fbbe65d29910f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\jezuz1n\.android\build-cache\90c7c1d4c4753acd848096bb61300736dafe76f0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\jezuz1n\.android\build-cache\8f878e8a17a62bf0fa4980b10dff4c4b67718aaf\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jezuz1n\.android\build-cache\957b6c291ef2cb93f126706157122c60a9bdde77\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jesus.salas\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\jesus.salas\.android\build-cache\5d372a29f0c9706921d680470047c8b64a70ac0c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\c07f46688b444044473b7b06d7745c5716affdd7\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\0ab2bae76ed1dfbf8dcaa7aaf14223f60fef1d33\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jesus.salas\.android\build-cache\1ecdc37b2bcdae051d77e51c620c6ef9af0f40c9\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ff1cc396caa155a6324f9e9813e8f1d6770b7e3f\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jesus.salas\.android\build-cache\ac59d87e14e7c7128a281a508fc99e726baaa6e0\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jesus.salas\.android\build-cache\9a7cc868096fb454aeea628e976fde5abe8a0924\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jesus.salas\.android\build-cache\3a481e9f3607d1f97c496a5070df7f09c022e008\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\5ca107324a3a177df186aa703b41f92f7c3b1c8d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jesus.salas\.android\build-cache\e940f054fdca7a94efe4c6061dd8502c654a757e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jesus.salas\.android\build-cache\cabdacc10da62c46fc33352f201dd0043992a032\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jesus.salas\.android\build-cache\73fe605252e9bdd912b205d12f9510131e544e54\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\0da45d95d394f7b6cef43aab51d8f719ec86fd77\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\jezuz1n\.android\build-cache\2c191a0bf7e0580c5b876228754f5b744bcef76d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\cc8a04ec3da35184535dc8f9b0c9cb72863156a0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\972ac3bb5cec734aef9876682694ed0ea1c0214e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\jezuz1n\.android\build-cache\8e84d6ec468d9effa02ca666ac88c657616bcfd6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\jezuz1n\.android\build-cache\09f2dd03ce842c8e9a5a6d49baba0dcf1b08cceb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\9876e472fedd8a68cea1cd062ec5195dd91075f3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\jezuz1n\.android\build-cache\24bc01c97d67aeb67e2bb74420033bdd91172b3f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jezuz1n\.android\build-cache\b1b5662e1e42d20fc1ec59551634b5770c6e2b56\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\93ffccf3bce097f31b8bfe6a7ed75eb47d338020\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.0] C:\Users\jesus.salas\.android\build-cache\84bfaae3c939a9083abe32fc744f3f77713d12db\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jesus.salas\.android\build-cache\48215e823bdb681c07820a7cec47598e0af51640\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\jezuz1n\.android\build-cache\bf3aacb2f90fba75c5ad46fd24e09f6f587e9121\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jesus.salas\.android\build-cache\c6163fb8dd82ab954a72b4b7c20739480a3da209\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\jezuz1n\.android\build-cache\816124a06a945db4ca1708cada54ca3b72177cdf\output\AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jesus.salas\.android\build-cache\dd0e3bfbc1431bab0fa6f18330a3359853f47896\output\AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] C:\Users\jezuz1n\.android\build-cache\4666121553c3f384194b4dc71d77f99a832bfa75\output\AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:6:9-175
+ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:6:9-175
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:6:125-149
+		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:6:125-149
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:6:150-173
+		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:6:150-173
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jesus.salas\.android\build-cache\590bfa9d7831665d071b6963f87bebce9c32c6da\output\AndroidManifest.xml:6:79-124
+		ADDED from [com.google.firebase:firebase-common:9.6.1] C:\Users\jezuz1n\.android\build-cache\616ecebc3b0b321bbdb087bca9a1435b77ac3df7\output\AndroidManifest.xml:6:79-124
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jesus.salas\.android\build-cache\4e477183df0e2abc7913df843fcc9d3627cd2ad7\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\jezuz1n\.android\build-cache\68facf68c9f777f584cbdf155d823b881a460fe1\output\AndroidManifest.xml:19:19-85

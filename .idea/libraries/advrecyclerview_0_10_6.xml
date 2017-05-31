@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="advrecyclerview-0.10.6">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/41c067c2a56377e13fdfca6392c6c06a4592e86e/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/41c067c2a56377e13fdfca6392c6c06a4592e86e/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a4b9a387aefb33993836891b9d61e64434511fdf/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a4b9a387aefb33993836891b9d61e64434511fdf/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

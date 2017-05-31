@@ -14,16 +14,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.client_profile.ClientProfileFragment;
 import com.example.jezuz1n.hairly.client_profile_edit.ClientEditProfileFragment;
+import com.example.jezuz1n.hairly.historial_management.HistorialManagementFragment;
+import com.example.jezuz1n.hairly.jobs.GetMarkersShopJob;
 import com.example.jezuz1n.hairly.login.LoginActivity;
 import com.example.jezuz1n.hairly.maps.EventClickMap;
 import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.models.dto.ShopMapVO;
 import com.example.jezuz1n.hairly.session.SessionManager;
+import com.example.jezuz1n.hairly.shop_profile.ShopProfileFragment;
+import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.facebook.drawee.backends.pipeline.Fresco;
+
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -66,20 +73,39 @@ public class IndexClientActivity extends AppCompatActivity implements EventClick
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            public boolean onNavigationItemSelected(@NonNull final MenuItem item) {
 
                 boolean fragmentTransition = false;
 
                 switch(item.getItemId()){
                     case R.id.menu_inicio:
                         break;
-                    case R.id.menu_centros:
-                        break;
                     case R.id.menu_citas:
+                        frag = new HistorialManagementFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.menu_mapa:
-                        frag = new GMapFragment();
-                        fragmentTransition = true;
+                        try {
+                            GetMarkersShopJob job = new GetMarkersShopJob(getApplicationContext(), new IGetResults<ArrayList<ShopMapVO>>() {
+                                @Override
+                                public void onSuccess(ArrayList<ShopMapVO> object) {
+                                    Bundle b = new Bundle();
+                                    b.putParcelableArrayList("lista",object);
+                                    frag = GMapFragment.newInstance(b);
+                                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+                                    item.setChecked(true);
+                                    getSupportActionBar().setTitle(item.getTitle());
+                                }
+
+                                @Override
+                                public void onFailure(ArrayList<ShopMapVO> object) {
+                                    Toast.makeText(getApplicationContext(),"No hay ninguna peluqueria localizada aun",Toast.LENGTH_LONG).show();
+                                }
+                            });
+                            job.onRun();
+                        } catch (Throwable throwable) {
+                            throwable.printStackTrace();
+                        }
                         break;
                     case R.id.menu_perfil:
                         frag = new ClientProfileFragment();
@@ -135,6 +161,10 @@ public class IndexClientActivity extends AppCompatActivity implements EventClick
 
     @Override
     public void OnClickItem(ShopMapVO shop) {
-
+        Bundle b = new Bundle();
+        b.putString("uid",shop.getUid());
+        frag = ShopProfileFragment.newInstance(b);
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+        getSupportActionBar().setTitle(shop.getNick());
     }
 }

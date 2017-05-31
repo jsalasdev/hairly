@@ -2,6 +2,7 @@ package com.example.jezuz1n.hairly.shop_profile;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import com.example.jezuz1n.hairly.models.dto.CitaDTO;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
@@ -84,7 +85,7 @@ public class ShopProfilePresenterImpl implements ShopProfilePresenter {
 
             @Override
             public void onFailure() {
-
+                Log.i("Error","peta");
             }
         });
     }

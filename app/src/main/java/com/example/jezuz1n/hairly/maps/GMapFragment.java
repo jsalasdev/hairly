@@ -102,13 +102,13 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback, Google
                 ShopMapVO shop = list.get(i);
                 LatLng pos = new LatLng(Double.parseDouble(shop.getLatitude()), Double.parseDouble(shop.getLongitude()));
                 BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.ic_shop);
-                userMark = mMap.addMarker(new MarkerOptions().title(shop.getNick()).position(pos).icon(icon).visible(false));
+                userMark = mMap.addMarker(new MarkerOptions().title(shop.getNick()).position(pos).icon(icon).visible(true));
                 diccionario.put(userMark, shop);
             }
         }
     }
 
-    public GMapFragment newInstance(Bundle b) {
+    public static GMapFragment newInstance(Bundle b) {
         GMapFragment fragment = new GMapFragment();
         fragment.setArguments(b);
         return fragment;
@@ -117,7 +117,6 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback, Google
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
         if (b != null) {
             list = b.getParcelableArrayList("lista");
             setupMap();

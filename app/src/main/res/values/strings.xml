@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Hairly</string>
     <string name="inicio">Inicio</string>
-    <string name="centros">Busca tu Centro</string>
-    <string name="gestion_citas">Gestionar Citas</string>
-    <string name="historial_citas">Historial Citas</string>
-    <string name="mapa_centros">Mapa de Centros</string>
-    <string name="citas">Tus Citas</string>
+    <string name="centros">Busca tu centro</string>
+    <string name="gestion_citas">Gestionar citas</string>
+    <string name="historial_citas">Historial citas</string>
+    <string name="mapa_centros">Mapa de centros</string>
+    <string name="citas">Tus citas</string>
     <string name="perfil">Mi Perfil</string>
     <string name="KEY_MAP">AIzaSyBVO9swpINVFkZ6oKLjF73wShofoX99PDU</string>
     <string name="title_activity_login">INICIA SESION</string>

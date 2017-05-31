@@ -77,10 +77,6 @@ public class IndexShopActivity extends AppCompatActivity {
                         break;
                     case R.id.menu_historial_citas:
                         break;
-                    case R.id.menu_mapa:
-                        frag = new GMapFragment();
-                        fragmentTransition = true;
-                        break;
                     case R.id.menu_perfil:
                         frag = new ShopProfileFragment();
                         fragmentTransition = true;
@@ -105,12 +101,9 @@ public class IndexShopActivity extends AppCompatActivity {
                 }
 
                 drawerLayout.closeDrawers();
-
                 return true;
             }
         });
-
-
     }
 
     public void initToolbar(){

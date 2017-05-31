@@ -257,7 +257,7 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
                 }
             });
 
-            CitaDTO item = mItems.get(position);
+            final CitaDTO item = mItems.get(position);
 
             presenter.getData(item.getUIDclient(), new IGetResults() {
                 @Override
@@ -272,12 +272,16 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
                                 if(user.getNick()!=null){
                                     holder.sdvItem.setImageURI(user.getPhotoURL());
                                     holder.tvNick.setText(user.getNick());
+
                                 }
 
                             }
 
                             @Override
                             public void onFailure(Uri object) {
+                                holder.tvNick.setText(user.getNick());
+                                holder.tvDate.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+item.getMinute());
+
                             }
                         });
                         job.onRun();

@@ -30,6 +30,7 @@ import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.firebase.storage.StorageException;
 
 import java.sql.Timestamp;
 import java.util.Calendar;
@@ -184,7 +185,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
     @Override
     public void showMsg(String msg) {
-        Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -229,6 +230,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
                                         cita.setUIDclient(uid);
                                         cita.setUIDshop(mShop.getUid());
                                         cita.setTimeStamp(timestamp.getTime());
+                                        cita.setState("running");
                                         //enviar objeto al presenter
                                         presenter.setCita(cita);
 

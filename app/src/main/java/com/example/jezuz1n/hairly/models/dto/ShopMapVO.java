@@ -10,6 +10,8 @@ import android.os.Parcelable;
 public class ShopMapVO implements Parcelable {
     private String uid, latitude, longitude, nick;
 
+    public ShopMapVO(){}
+
     protected ShopMapVO(Parcel in) {
         uid = in.readString();
         latitude = in.readString();
