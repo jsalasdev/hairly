@@ -1,6 +1,7 @@
 package com.example.jezuz1n.hairly.jobs;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.example.jezuz1n.hairly.mappers.Mapper;
 import com.example.jezuz1n.hairly.models.dto.CitaDTO;
@@ -33,7 +34,7 @@ public class GetMarkersShopJob extends Job {
 
     @Override
     public void onAdded() {
-
+        Log.i("AGREGADO","dasdas");
     }
 
     @Override
@@ -41,7 +42,7 @@ public class GetMarkersShopJob extends Job {
 
         try {
             FirebaseDatabase.getInstance().getReference().child("shops")
-                    .addValueEventListener(new ValueEventListener() {
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             ArrayList<ShopMapVO> list = new ArrayList<>();

@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -27,6 +28,10 @@ import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.h6ah4i.android.widget.advrecyclerview.animator.SwipeDismissItemAnimator;
 import com.h6ah4i.android.widget.advrecyclerview.decoration.SimpleListDividerDecorator;
 import com.h6ah4i.android.widget.advrecyclerview.swipeable.RecyclerViewSwipeManager;
@@ -37,8 +42,11 @@ import com.h6ah4i.android.widget.advrecyclerview.swipeable.action.SwipeResultAct
 import com.h6ah4i.android.widget.advrecyclerview.swipeable.action.SwipeResultActionMoveToSwipedDirection;
 import com.h6ah4i.android.widget.advrecyclerview.swipeable.action.SwipeResultActionRemoveItem;
 import com.h6ah4i.android.widget.advrecyclerview.utils.AbstractSwipeableItemViewHolder;
+import com.path.android.jobqueue.JobManager;
+import com.path.android.jobqueue.config.Configuration;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -60,6 +68,10 @@ public class HistorialManagementFragment extends Fragment implements HistorialMa
 
     HistorialAdapter adapter;
 
+    boolean executed = false;
+
+    JobManager jobManager;
+
     static HistorialManagementPresenter presenter;
 
     public HistorialManagementFragment() {
@@ -74,25 +86,73 @@ public class HistorialManagementFragment extends Fragment implements HistorialMa
         presenter = new HistorialManagementPresenterImpl(this);
         showProgressBar();
 
-        try {
-            GetCitasFromClientJob job = new GetCitasFromClientJob(new SessionManager(getAppContext()).getUserDetails().get(SessionManager.KEY_UID)
-                    , getAppContext()
-                    , new IGetResults<ArrayList<CitaDTO>>() {
-                @Override
-                public void onSuccess(ArrayList<CitaDTO> object) {
-                    createRv(object);
+        Configuration.Builder builder = new Configuration.Builder(getAppContext())
+                .minConsumerCount(1)
+                .maxConsumerCount(1)
+                .loadFactor(1)
+                .consumerKeepAlive(30);
+
+        jobManager = new JobManager(getContext(),builder.build());
+
+
+        String type = new SessionManager(getAppContext()).getUserDetails().get(SessionManager.KEY_TYPE);
+
+        if(type.equalsIgnoreCase("shop")){
+            try {
+                GetCitasFromShopJob job = new GetCitasFromShopJob(new SessionManager(getAppContext()).getUserDetails().get(SessionManager.KEY_UID)
+                        ,CitaDTO.ALL_TYPES
+                        , getAppContext()
+                        , new IGetResults<ArrayList<CitaDTO>>() {
+                    @Override
+                    public void onSuccess(ArrayList<CitaDTO> object) {
+                        createRv(object);
+                    }
+
+                    @Override
+                    public void onFailure(ArrayList<CitaDTO> object) {
+                        Log.i("ERROR","no se trae citas");
+                        tvError.setVisibility(View.VISIBLE);
+                        hideProgressBar();
+                    }
+                });
+
+                if(!executed){
+                    executed = true;
+                    jobManager.clear();
+                    jobManager.addJobInBackground(job);
                 }
 
-                @Override
-                public void onFailure(ArrayList<CitaDTO> object) {
-                    Log.i("ERROR","no se trae citas");
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
+        }else {
+            try {
+                GetCitasFromClientJob job = new GetCitasFromClientJob(new SessionManager(getAppContext()).getUserDetails().get(SessionManager.KEY_UID)
+                        ,CitaDTO.ALL_TYPES
+                        , getAppContext()
+                        , new IGetResults<ArrayList<CitaDTO>>() {
+                    @Override
+                    public void onSuccess(ArrayList<CitaDTO> object) {
+                        createRv(object);
+                    }
+
+                    @Override
+                    public void onFailure(ArrayList<CitaDTO> object) {
+                        Log.i("ERROR", "no se trae citas");
+                        tvError.setVisibility(View.VISIBLE);
+                        hideProgressBar();
+                    }
+                });
+                if(!executed){
+                    executed = true;
+                    jobManager.clear();
+                    jobManager.addJobInBackground(job);
                 }
-            });
-            job.onRun();
-        } catch (Throwable throwable) {
-            throwable.printStackTrace();
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
+
         }
-
         return view;
     }
 
@@ -120,6 +180,11 @@ public class HistorialManagementFragment extends Fragment implements HistorialMa
     @Override
     public Context getAppContext() {
         return this.getContext();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 
 }

@@ -4,22 +4,16 @@ import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.CardView;
-import android.util.Log;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -30,7 +24,6 @@ import com.example.jezuz1n.hairly.models.dto.ShopDTO;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.google.firebase.storage.StorageException;
 
 import java.sql.Timestamp;
 import java.util.Calendar;
@@ -123,6 +116,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
         button.setLayoutParams(params);
         button.setText("Pedir Cita");
         button.setBackgroundColor(getActivity().getResources().getColor(R.color.colorPrimaryDark));
+        button.setTextColor(getActivity().getResources().getColor(R.color.colorWhite));
         button.setOnClickListener(this);
 
         card.addView(button);
@@ -185,7 +179,11 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
 
     @Override
     public void showMsg(String msg) {
+        try {
             Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
 
     @Override
@@ -201,7 +199,6 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
         mYear = c.get(Calendar.YEAR);
         mMonth = c.get(Calendar.MONTH) + 1;
         mDay = c.get(Calendar.DAY_OF_MONTH);
-
 
         DatePickerDialog datePickerDialog = new DatePickerDialog(getContext(), R.style.datepicker,
                 new DatePickerDialog.OnDateSetListener() {
@@ -222,7 +219,7 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
                                     @Override
                                     public void onTimeSet(TimePicker view, int hourOfDay,
                                                           int minute) {
-                                       String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
+                                        String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
 
                                         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
@@ -241,5 +238,10 @@ public class ShopProfileFragment extends Fragment implements ShopProfileView, Vi
                     }
                 }, mYear, mMonth, mDay);
         datePickerDialog.show();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
     }
 }

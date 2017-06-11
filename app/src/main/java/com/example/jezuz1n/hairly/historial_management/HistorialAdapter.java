@@ -2,6 +2,7 @@ package com.example.jezuz1n.hairly.historial_management;
 
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import com.example.jezuz1n.hairly.utils.IGetResults;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -31,6 +33,7 @@ public class HistorialAdapter extends RecyclerView.Adapter<HistorialAdapter.Cita
 
     public HistorialAdapter(HistorialManagementPresenter presenter,ArrayList<CitaDTO> list) {
         this.list = list;
+        Collections.reverse(list);
         this.presenter = presenter;
     }
 
@@ -44,7 +47,26 @@ public class HistorialAdapter extends RecyclerView.Adapter<HistorialAdapter.Cita
     @Override
     public void onBindViewHolder(final CitaViewHolder holder, int position) {
         final CitaDTO item = list.get(position);
+        final String minutes;
 
+        Log.i("ESTADO",item.getState());
+        switch(item.getState()){
+            case "confirmed":
+                item.setState("Confirmada");
+                break;
+            case "deleted":
+                item.setState("Rechazada");
+                break;
+            case "running":
+                item.setState("En espera...");
+                break;
+        }
+
+        if(String.valueOf(item.getMinute()).length()<2){
+            minutes = "0"+String.valueOf(item.getMinute());
+        }else{
+            minutes = String.valueOf(item.getMinute());
+        }
         presenter.getData(item.getUIDshop(), new IGetResults() {
             @Override
             public void onSuccess(Object object) {
@@ -57,15 +79,16 @@ public class HistorialAdapter extends RecyclerView.Adapter<HistorialAdapter.Cita
                             if (user.getNick() != null && user.getPhotoURL()!=null) {
                                 holder.photo.setImageURI(user.getPhotoURL());
                                 holder.nick.setText(user.getNick());
-                                holder.date.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+item.getMinute());
+                                holder.date.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+minutes);
+                                holder.state.setText(item.getState());
                             }
-
                         }
 
                         @Override
                         public void onFailure(Uri object) {
                             holder.nick.setText(user.getNick());
-                            holder.date.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+item.getMinute());
+                            holder.date.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+minutes);
+                            holder.state.setText(item.getState());
                         }
                     });
                     job.onRun();
@@ -95,6 +118,9 @@ public class HistorialAdapter extends RecyclerView.Adapter<HistorialAdapter.Cita
 
         @BindView(R.id.date_item)
         public TextView date;
+
+        @BindView(R.id.state_item)
+        public TextView state;
 
         @BindView(R.id.sdvItem)
         SimpleDraweeView photo;

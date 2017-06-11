@@ -13,6 +13,7 @@ public class CitaDTO {
     public static final String TYPE_ACTIVE = "confirmed";
     public static final String TYPE_NOT_ACTIVE = "running";
     public static final String TYPE_CANCELED = "deleted";
+    public static final String ALL_TYPES = "all";
 
     private long day, month, year, hour, minute;
     private String UIDclient, UIDshop;

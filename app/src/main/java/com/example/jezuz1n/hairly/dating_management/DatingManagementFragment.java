@@ -36,7 +36,10 @@ import com.h6ah4i.android.widget.advrecyclerview.swipeable.action.SwipeResultAct
 import com.h6ah4i.android.widget.advrecyclerview.swipeable.action.SwipeResultActionRemoveItem;
 import com.h6ah4i.android.widget.advrecyclerview.utils.AbstractSwipeableItemViewHolder;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
+import java.util.Collections;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -77,7 +80,7 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
 
         String uid = new SessionManager(getContext()).getUserDetails().get(SessionManager.KEY_UID);
         try {
-            GetCitasFromShopJob job = new GetCitasFromShopJob(uid, getContext(), new IGetResults<ArrayList<CitaDTO>>() {
+            GetCitasFromShopJob job = new GetCitasFromShopJob(uid,CitaDTO.TYPE_NOT_ACTIVE, getContext(), new IGetResults<ArrayList<CitaDTO>>() {
                 @Override
                 public void onSuccess(ArrayList<CitaDTO> object) {
                     createRv(object);
@@ -158,6 +161,8 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
         TextView tvNick;
         @BindView(R.id.date_item)
         TextView tvDate;
+        @BindView(R.id.state_item)
+        TextView tvState;
         @BindView(R.id.sdvItem)
         SimpleDraweeView sdvItem;
         float lastSwipeAmount;
@@ -220,6 +225,7 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
             setHasStableIds(true);
             this.mContext = c;
             mItems = list;
+            Collections.reverse(mItems);
             this.listener = listener;
         }
 
@@ -241,7 +247,6 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, final int position) {
-            //holder.tvNick.setText("item " + position);
 
             holder.optionView2.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -259,6 +264,13 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
 
             final CitaDTO item = mItems.get(position);
 
+            final String minutes;
+            if(String.valueOf(item.getMinute()).length()<2){
+                minutes = "0"+String.valueOf(item.getMinute());
+            }else{
+                minutes = String.valueOf(item.getMinute());
+            }
+
             presenter.getData(item.getUIDclient(), new IGetResults() {
                 @Override
                 public void onSuccess(Object object) {
@@ -268,11 +280,11 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
                             @Override
                             public void onSuccess(Uri object) {
                                 user.setPhotoURL(object);
-
-                                if(user.getNick()!=null){
+                                if (user.getNick() != null && user.getPhotoURL()!=null) {
                                     holder.sdvItem.setImageURI(user.getPhotoURL());
                                     holder.tvNick.setText(user.getNick());
-
+                                    holder.tvDate.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+minutes);
+                                    holder.tvState.setText("En espera...");
                                 }
 
                             }
@@ -280,8 +292,8 @@ public class DatingManagementFragment extends Fragment implements DatingManageme
                             @Override
                             public void onFailure(Uri object) {
                                 holder.tvNick.setText(user.getNick());
-                                holder.tvDate.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+item.getMinute());
-
+                                holder.tvDate.setText(item.getDay()+"-"+item.getMonth()+"-"+item.getYear()+" "+item.getHour()+":"+minutes);
+                                holder.tvState.setText("En espera...");
                             }
                         });
                         job.onRun();

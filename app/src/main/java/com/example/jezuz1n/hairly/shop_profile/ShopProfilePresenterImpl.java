@@ -6,9 +6,11 @@ import android.util.Log;
 
 import com.example.jezuz1n.hairly.models.dto.CitaDTO;
 import com.example.jezuz1n.hairly.models.dto.ShopDTO;
+import com.facebook.common.util.ExceptionWithNoStacktrace;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageException;
 import com.google.firebase.storage.StorageReference;
 
 /**
@@ -58,19 +60,20 @@ public class ShopProfilePresenterImpl implements ShopProfilePresenter {
     }
 
     public void getPhoto(final ShopDTO user){
-        StorageReference storage = FirebaseStorage.getInstance().getReference();
-        storage.child("shops").child("profiles").child(user.getUid()+".png").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-            @Override
-            public void onSuccess(Uri uri) {
-                user.setPhotoURL(uri);
-                view.setData(user);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception exception) {
-                view.setData(user);
-            }
-        });
+            StorageReference storage = FirebaseStorage.getInstance().getReference();
+            storage.child("shops").child("profiles").child(user.getUid() + ".png").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                @Override
+                public void onSuccess(Uri uri) {
+                    user.setPhotoURL(uri);
+                    view.setData(user);
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    StorageException st = StorageException.fromException(exception);
+                    view.setData(user);
+                }
+            });
     }
 
 
@@ -80,7 +83,7 @@ public class ShopProfilePresenterImpl implements ShopProfilePresenter {
         interactor.uploadCita(cita, new ShopProfileInteractor.OnUploadCitaFinishedListener() {
             @Override
             public void onSuccess(String msg) {
-                view.showMsg(msg);
+                    view.showMsg(msg);
             }
 
             @Override

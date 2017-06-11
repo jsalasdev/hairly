@@ -124,6 +124,10 @@
         "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\fragment_shop_profile.xml"
     },
     {
+        "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_index.xml",
+        "source": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\src\\main\\res\\layout\\fragment_index.xml"
+    },
+    {
         "merged": "C:\\Users\\jezuz1n\\AndroidStudioProjects\\hairlyproject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\jezuz1n\\.android\\build-cache\\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },

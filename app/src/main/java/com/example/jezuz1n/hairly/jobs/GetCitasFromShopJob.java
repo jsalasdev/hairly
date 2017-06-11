@@ -22,12 +22,14 @@ public class GetCitasFromShopJob extends Job {
     IGetResults<ArrayList<CitaDTO>> listener;
     Context mContext;
     String uid;
+    String type;
 
-    public GetCitasFromShopJob(String uid, Context c, IGetResults<ArrayList<CitaDTO>> listener) {
-        super(new Params(1).requireNetwork().persist());
+    public GetCitasFromShopJob(String uid, String type, Context c, IGetResults<ArrayList<CitaDTO>> listener) {
+        super(new Params(1).requireNetwork());
         this.uid = uid;
         this.mContext = c;
         this.listener = listener;
+        this.type = type;
     }
 
     @Override
@@ -38,15 +40,23 @@ public class GetCitasFromShopJob extends Job {
     @Override
     public void onRun() throws Throwable {
         try {
-            FirebaseDatabase.getInstance().getReference().child("shops").child(uid).child("citas")
-                    .addValueEventListener(new ValueEventListener() {
+            FirebaseDatabase.getInstance().getReference().child("citas")
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             ArrayList<CitaDTO> list = new ArrayList<>();
                             for (DataSnapshot cita : dataSnapshot.getChildren()) {
                                 CitaDTO aux = cita.getValue(CitaDTO.class);
-                                if(aux.getState().equals("running")){
-                                    list.add(aux);
+                                if (uid.equals(aux.getUIDshop())) {
+                                    if (type.equals(CitaDTO.ALL_TYPES)) {
+                                        list.add(aux);
+                                    } else {
+                                        if (aux.getState() != null) {
+                                            if (aux.getState().equals(type)) {
+                                                list.add(aux);
+                                            }
+                                        }
+                                    }
                                 }
                             }
 

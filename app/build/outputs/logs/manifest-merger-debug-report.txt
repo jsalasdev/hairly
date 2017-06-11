@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:2:1-63:12
 	package
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml
@@ -45,30 +45,34 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:5-98
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:12:5-98
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:11:22-95
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:12:22-95
 permission#com.truiton.supportmapfragment.permission.MAPS_RECEIVE
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:13:5-15:47
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:14:5-16:47
 	android:protectionLevel
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:16:9-44
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:14:9-78
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:15:9-78
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:5-71
-	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:18:22-68
-uses-permission#android.permission.READ_PROFILE
 ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:5-71
 	android:name
 		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:19:22-68
-uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:5-72
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:5-71
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:22-69
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:20:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:21:22-69
 application
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:22:5-60:19
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:23:5-61:19
 MERGED from [com.android.support:design:25.3.0] C:\Users\jezuz1n\.android\build-cache\7179305d48d906d65a3c908faed6ad3d1c90eab3\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.0] C:\Users\jezuz1n\.android\build-cache\c66b13765548cbf992f6d8d73a96793d088a0ae2\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\jezuz1n\.android\build-cache\31ef370f0b34fa07f3b5924ce7c8d7248336f0d1\output\AndroidManifest.xml:29:5-20
@@ -95,74 +99,74 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\jezuz1n\.an
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\jezuz1n\.android\build-cache\93ffccf3bce097f31b8bfe6a7ed75eb47d338020\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jezuz1n\.android\build-cache\957b6c291ef2cb93f126706157122c60a9bdde77\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:25:9-41
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:26:9-41
 	android:supportsRtl
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:27:9-35
 	android:allowBackup
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:24:9-35
 	android:icon
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:24:9-43
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:25:9-43
 	android:theme
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:28:9-40
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:28:9-30:69
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:29:9-31:69
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\jezuz1n\.android\build-cache\afabd2079d35971a023ee4df3e3b40ec00fc87b3\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:30:13-66
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:31:13-66
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:29:13-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:30:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:31:9-33:47
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:32:9-34:47
 	android:value
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:34:13-44
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:32:13-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:33:13-58
 uses-feature#0x00020000
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:35:9-37:39
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:36:9-38:39
 	android:glEsVersion
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:37:13-45
 	android:required
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:38:13-36
 activity#com.example.jezuz1n.hairly.login.LoginActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:39:9-42:52
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:40:9-43:52
 	android:screenOrientation
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:43:13-49
 	android:label
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:41:13-57
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:42:13-57
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:40:13-48
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:41:13-48
 activity#com.example.jezuz1n.hairly.splash.SplashActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:44:9-53:20
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:45:9-54:20
 	android:screenOrientation
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:48:13-49
 	android:label
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:46:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:17-69
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:17-77
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:51:27-74
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:52:27-74
 activity#com.example.jezuz1n.hairly.register.RegisterActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:54:9-56:52
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:55:9-57:52
 	android:screenOrientation
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:56:13-54
 activity#com.example.jezuz1n.hairly.index.IndexShopActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:9-70
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:58:9-70
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:57:19-58
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:58:19-58
 activity#com.example.jezuz1n.hairly.index.IndexClientActivity
-ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:58:9-59:56
+ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:9-60:56
 	android:name
-		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:59:13-54
+		ADDED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml:60:13-54
 uses-sdk
 INJECTED from C:\Users\jezuz1n\AndroidStudioProjects\hairlyproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6] C:\Users\jezuz1n\.android\build-cache\a4b9a387aefb33993836891b9d61e64434511fdf\output\AndroidManifest.xml:23:5-25:41

@@ -1,13 +1,13 @@
 package com.example.jezuz1n.hairly.index;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -17,8 +17,8 @@ import android.widget.TextView;
 
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.dating_management.DatingManagementFragment;
+import com.example.jezuz1n.hairly.historial_management.HistorialManagementFragment;
 import com.example.jezuz1n.hairly.login.LoginActivity;
-import com.example.jezuz1n.hairly.maps.GMapFragment;
 import com.example.jezuz1n.hairly.session.SessionManager;
 import com.example.jezuz1n.hairly.shop_profile.ShopProfileFragment;
 import com.example.jezuz1n.hairly.shop_profile_edit.ShopEditProfileFragment;
@@ -52,11 +52,14 @@ public class IndexShopActivity extends AppCompatActivity {
 
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_navview, null);
         initToolbar();
-        if(Boolean.parseBoolean(sessionManager.getUserDetails().get("firstConnection"))){
+        if (Boolean.parseBoolean(sessionManager.getUserDetails().get("firstConnection"))) {
             frag = new ShopEditProfileFragment();
             sessionManager.updateFirstConnection();
-            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, frag, null).commit();
             getSupportActionBar().setTitle("Editar Perfil");
+        }else{
+            frag = new IndexFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, frag, null).commit();
         }
 
         ((TextView) nav_header.findViewById(R.id.usuario)).setText(sessionManager.getUserDetails().get("email"));
@@ -68,14 +71,18 @@ public class IndexShopActivity extends AppCompatActivity {
 
                 boolean fragmentTransition = false;
 
-                switch(item.getItemId()){
+                switch (item.getItemId()) {
                     case R.id.menu_inicio:
+                        frag = new IndexFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.menu_gestion_citas:
                         frag = new DatingManagementFragment();
                         fragmentTransition = true;
                         break;
                     case R.id.menu_historial_citas:
+                        frag = new HistorialManagementFragment();
+                        fragmentTransition = true;
                         break;
                     case R.id.menu_perfil:
                         frag = new ShopProfileFragment();
@@ -94,8 +101,8 @@ public class IndexShopActivity extends AppCompatActivity {
                         break;
                 }
 
-                if(fragmentTransition){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,frag,null).commit();
+                if (fragmentTransition) {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, frag, null).commit();
                     item.setChecked(true);
                     getSupportActionBar().setTitle(item.getTitle());
                 }
@@ -106,7 +113,7 @@ public class IndexShopActivity extends AppCompatActivity {
         });
     }
 
-    public void initToolbar(){
+    public void initToolbar() {
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_menu);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -120,7 +127,7 @@ public class IndexShopActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;

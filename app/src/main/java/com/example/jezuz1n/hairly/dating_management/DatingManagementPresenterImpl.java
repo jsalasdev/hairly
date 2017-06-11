@@ -49,8 +49,7 @@ public class DatingManagementPresenterImpl implements DatingManagementPresenter{
     public void changeState(CitaDTO cita) {
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
         if (cita != null) {
-            mDatabase.child("shops").child(cita.getUIDshop()).child("citas").child(Long.toString(cita.getTimeStamp())).setValue(cita);
-            mDatabase.child("clients").child(cita.getUIDclient()).child("citas").child(Long.toString(cita.getTimeStamp())).setValue(cita);
+            mDatabase.child("citas").child(Long.toString(cita.getTimeStamp())).setValue(cita);
         }
     }
 

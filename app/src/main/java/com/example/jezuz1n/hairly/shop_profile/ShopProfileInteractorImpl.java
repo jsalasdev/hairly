@@ -46,7 +46,7 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
     }
 
     @Override
-    public void getData(String uid,final OnChargeDataFinishedListener listener) {
+    public void getData(String uid, final OnChargeDataFinishedListener listener) {
         FirebaseDatabase.getInstance().getReference().child("shops").child(uid)
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -63,18 +63,14 @@ public class ShopProfileInteractorImpl implements ShopProfileInteractor {
     }
 
     @Override
-    public void uploadCita(CitaDTO cita, OnUploadCitaFinishedListener listener) {
-        try {
+    public void uploadCita(final CitaDTO cita, final OnUploadCitaFinishedListener listener) {
+        if (cita != null) {
             mDatabase = FirebaseDatabase.getInstance().getReference();
-            if (cita != null) {
-                mDatabase.child("shops").child(cita.getUIDshop()).child("citas").child(String.valueOf(cita.getTimeStamp())).setValue(cita);
-                mDatabase.child("clients").child(cita.getUIDclient()).child("citas").child(String.valueOf(cita.getTimeStamp())).setValue(cita);
-                listener.onSuccess("Su cita fue enviada correctamente.");
-            } else {
-                listener.onFailure();
-            }
-        } catch (Exception e) {
+            mDatabase.child("citas").child(String.valueOf(cita.getTimeStamp())).setValue(cita);
+            listener.onSuccess("La cita ha sido registrada.");
+        } else {
             listener.onFailure();
         }
+
     }
 }

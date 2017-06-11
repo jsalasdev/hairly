@@ -2,17 +2,14 @@ package com.example.jezuz1n.hairly.maps;
 
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.jezuz1n.hairly.R;
 import com.example.jezuz1n.hairly.models.dto.ShopMapVO;
-import com.example.jezuz1n.hairly.session.SessionManager;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -22,11 +19,6 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -154,7 +146,7 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback, Google
 //
 //        }
 
-        if(shop!=null){
+        if (shop != null) {
             listener.OnClickItem(shop);
         }
 
