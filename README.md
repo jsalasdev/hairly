@@ -18,4 +18,14 @@ Used libraries:
 
 I attach images:
 
+Login:
 
+![login](login.png)
+
+If you're a client:
+
+![client](client.png)
+
+If you're a client:
+
+![shop](shop.png)
